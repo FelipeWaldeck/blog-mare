@@ -1,0 +1,24 @@
+{{/* GEO-SEO: Citation Shortcode */}}
+{{/* Usage: {{< citation source="Design Management Institute" year="2024" >}}73% of designers...{{< /citation >}} */}}
+{{/* Rationale: Princeton GEO study shows citations = +40% AI visibility */}}
+
+{{ $source := .Get "source" }}
+{{ $year := .Get "year" }}
+{{ $url := .Get "url" }}
+
+<cite class="geo-citation" 
+  data-source="{{ $source }}"
+  {{ with $year }}data-year="{{ . }}"{{ end }}
+  {{ with $url }}data-url="{{ . }}"{{ end }}>
+  
+  <span class="stat-value">{{ .Inner | markdownify }}</span>
+  
+  <span class="source">
+    — {{ $source }}
+    {{ with $year }}, {{ . }}{{ end }}
+  </span>
+  
+  {{ with $url }}
+  <a href="{{ . }}" target="_blank" rel="noopener noreferrer" class="source-link">[Source]</a>
+  {{ end }}
+</cite>

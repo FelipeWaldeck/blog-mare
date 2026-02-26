@@ -1,0 +1,24 @@
+{{/* GEO-SEO: Statistics Shortcode */}}
+{{/* Usage: {{< stat value="73%" source="Design Management Institute" year="2024" >}}of designers spend 2-4 hours daily on Pinterest{{< /stat >}} */}}
+{{/* Rationale: Statistics = +37% visibility per Princeton GEO study */}}
+
+{{ $value := .Get "value" }}
+{{ $source := .Get "source" }}
+{{ $year := .Get "year" }}
+
+<figure class="geo-statistic"
+  data-value="{{ $value }}"
+  data-source="{{ $source }}"
+  {{ with $year }}data-year="{{ . }}"{{ end }}>
+  
+  <span class="stat-number">{{ $value }}</span>
+  
+  <figcaption class="stat-description">
+    {{ .Inner | markdownify }}
+  </figcaption>
+  
+  <cite class="stat-source">
+    {{ $source }}
+    {{ with $year }}, {{ . }}{{ end }}
+  </cite>
+</figure>

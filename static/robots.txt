@@ -1,0 +1,47 @@
+User-agent: *
+Allow: /
+Disallow: /ghost/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /email/
+Disallow: /members/
+
+Sitemap: https://blog.mare.run/sitemap.xml
+
+# AI Search Engines — Allow crawling for citations
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+# Crawl delay for heavy bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10

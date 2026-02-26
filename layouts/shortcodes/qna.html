@@ -1,0 +1,8 @@
+{{/* GEO-SEO: Individual Q&A for FAQ shortcode */}}
+{{/* Usage: {{< qna q="Question?" a="Answer." />}} */}}
+
+{{ $question := .Get "q" }}
+{{ $answer := .Get "a" }}
+
+<dt class="faq-question">{{ $question }}</dt>
+<dd class="faq-answer">{{ $answer | markdownify }}</dd>

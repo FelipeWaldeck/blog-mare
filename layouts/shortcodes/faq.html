@@ -1,0 +1,14 @@
+{{/* GEO-SEO: FAQ Shortcode with JSON-LD */}}
+{{/* Usage:
+  {{< faq >}}
+    {{< qna q="What is X?" a="X is..." />}}
+    {{< qna q="Why X?" a="Because..." />}}
+  {{< /faq >}}
+*/}}
+
+<div class="faq-section" data-geo-faq="true">
+  <h2>Frequently Asked Questions</h2>
+  <dl class="faq-list">
+    {{ .Inner }}
+  </dl>
+</div>

@@ -1,0 +1,15 @@
+# Cloudflare Pages Redirects
+# Format: from to [status]
+
+# Ghost → Hugo redirects (preserve SEO juice)
+/tag/pinterest/ /tags/pinterest/ 301
+/tag/arena/ /tags/are.na/ 301
+/tag/are.na/ /tags/are.na/ 301
+/author/mare/ / 301
+
+# Common typo redirects
+/pintrest/ /tags/pinterest/ 301
+/pintrest-alternative/ /posts/pinterest-addiction-designers/ 301
+
+# Fallback: any 404 goes to homepage
+/* /404.html 404

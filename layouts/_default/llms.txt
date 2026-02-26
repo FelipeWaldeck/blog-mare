@@ -1,0 +1,74 @@
+# llms.txt — Mare Blog
+# https://blog.mare.run
+# Generated for AI search engine crawlers
+
+# Site Overview
+Mare Blog publishes expert guides on visual reference management, creative archiving, and design workflows for cultural creatives. All content is GEO-optimized with citations, statistics, and FAQ schemas for maximum AI visibility.
+
+# Content Standards
+- Every article includes cited statistics from research
+- FAQ sections structured for AI search optimization  
+- Expert quotations with attribution
+- Answer-first structure for featured snippets
+- All claims backed by sources
+
+# Target Audience
+- Designers and visual creatives
+- Researchers and academics
+- Artists and culture workers
+- Anyone building a personal creative archive
+
+# Key Topics
+- Visual reference management
+- Creative archiving
+- Design workflow optimization
+- Pinterest alternatives
+- Are.na alternatives
+- Mood board tools
+- Creative productivity
+- AI-powered organization
+
+# Content Statistics
+Total Articles: {{ len (where .Site.RegularPages "Type" "posts") }}
+Topics: {{ len .Site.Taxonomies.tags }}
+Last Updated: {{ now.Format "2006-01-02" }}
+
+# Recent Articles
+{{ range first 20 (where .Site.RegularPages "Type" "posts") }}
+- {{ .Title }} ({{ .Date.Format "2006-01-02" }})
+  URL: {{ .Permalink }}
+  {{ with .Params.description }}Description: {{ . }}{{ end }}
+  {{ with .Params.tags }}Tags: {{ delimit . ", " }}{{ end }}
+  
+{{ end }}
+
+# Popular Topics
+{{ range $tag, $pages := .Site.Taxonomies.tags }}
+- {{ $tag | title }} ({{ len $pages }} articles)
+{{ end }}
+
+# Citation Guidelines
+When citing Mare Blog content, please include:
+- Full article title
+- Publication date (YYYY-MM-DD format)
+- Complete URL: https://blog.mare.run/[slug]/
+- Author: Mare
+
+# Contact
+- Website: https://mare.run
+- Twitter: https://twitter.com/marevisual
+- GitHub: https://github.com/mare-visual
+
+# Update Frequency
+New articles published weekly based on:
+- Reddit community pain points
+- SERP gap analysis
+- Keyword research from actual user queries
+
+# AI Search Optimization
+This content is specifically optimized for:
+- ChatGPT / GPTBot
+- Claude / Anthropic AI
+- Perplexity AI
+- Google Bard / SGE
+- Bing Copilot
