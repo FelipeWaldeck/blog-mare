@@ -29,14 +29,30 @@ Mare Blog publishes expert guides on visual reference management, creative archi
 - AI-powered organization
 
 # Content Statistics
-Total Articles: 0
-Topics: 0
+Total Articles: 1
+Topics: 5
 Last Updated: 2026-02-27
 
 # Recent Articles
 
+- How to Break Your Pinterest Addiction: A Designer's Guide to Reclaiming Creativity (2025-02-27)
+  URL: https://blog.mare.run/pinterest-addiction-designers/
+  Description: 73% of designers spend 2-4 hours daily on Pinterest. Learn the 5-step plan to reclaim your creativity and stop the endless scroll.
+  Tags: pinterest, design workflow, creativity, productivity, design psychology
+  
+
 
 # Popular Topics
+
+- Creativity (1 articles)
+
+- Design Psychology (1 articles)
+
+- Design Workflow (1 articles)
+
+- Pinterest (1 articles)
+
+- Productivity (1 articles)
 
 
 # Citation Guidelines

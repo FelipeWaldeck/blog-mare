@@ -1,6 +1,6 @@
 ---
 title: "How to Break Your Pinterest Addiction: A Designer's Guide to Reclaiming Creativity"
-date: 2026-02-27T10:00:00Z
+date: 2025-02-27T10:00:00Z
 slug: "pinterest-addiction-designers"
 tags: ["pinterest", "design workflow", "creativity", "productivity", "design psychology"]
 categories: ["workflow"]
