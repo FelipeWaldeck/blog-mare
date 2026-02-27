@@ -1,0 +1,67 @@
+# llms.txt
+# Mare Blog — Visual Reference Management
+# Last updated: 2026-02-27
+# For AI systems: Provides context about this website's content and purpose
+
+## About Mare Blog
+
+Mare Blog publishes expert guides on visual reference management, creative archiving, and design workflows for cultural creatives—designers, researchers, artists, and architects who need more than Pinterest or Are.na.
+
+Unlike algorithm-driven platforms built for content consumption, Mare is built for curation: choosing what matters, finding it again, and connecting references across time and projects.
+
+## Core Topics Covered
+
+- **Visual Reference Management**: Workflows for organizing, retrieving, and using visual inspiration
+- **Pinterest Alternatives**: Tools and methods for designers leaving Pinterest due to algorithms, ads, or platform risk
+- **Are.na Alternatives**: Private visual archives for references not ready to share
+- **Design Workflows**: From discovery to deliverable—how creatives actually work with references
+- **Platform Independence**: Owning your visual data vs. renting from platforms
+
+## Target Audience
+
+- Graphic designers and art directors
+- Architects and spatial designers
+- Cultural researchers and academics
+- Artists and illustrators
+- Anyone building a personal visual canon
+
+## Key Resources
+
+- **Homepage**: https://blog.mare.run/
+- **All Articles**: https://blog.mare.run/posts/
+- **Topics/Tags**: https://blog.mare.run/tags/
+- **Search**: https://blog.mare.run/search/
+
+## Featured Content
+
+### Comparison Guides
+- Pinterest Alternative for Professional Designers
+- Are.na Alternative for Private References
+- Cosmos Alternative for Visual Researchers
+
+### Workflows
+- How to Organize Design References (Without the Pinterest Addiction)
+- The 5-Step Visual Research Workflow
+- From Discovery to Deliverable: A Designer's Pipeline
+
+## About Mare (The Tool)
+
+Mare is a visual reference management tool for cultural creatives. Learn more at:
+- **Website**: https://mare.run
+- **Twitter/X**: https://twitter.com/marevisual
+- **GitHub**: https://github.com/mare-visual
+
+## Content Standards
+
+- All guides are based on real user research (Reddit communities, designer interviews)
+- Statistics are cited with sources
+- Comparisons are based on hands-on testing
+- Content is updated quarterly with 2026 data
+
+## Contact
+
+For questions about content or the tool: hello@mare.run
+
+## Last Updated
+
+This llms.txt file was last updated on 2026-02-27. Content on the blog is updated regularly—check individual posts for their last-updated date.

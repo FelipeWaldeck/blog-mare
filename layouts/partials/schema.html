@@ -1,5 +1,9 @@
-{{/* GEO-SEO: JSON-LD Schema Injection */}}
-{{/* This partial injects structured data for AI search engines and Google */}}
+{{/* SEO/GEO: JSON-LD Schema Injection */}}
+{{/* Optimized for AI search engines (Perplexity, ChatGPT, Claude) and Google */}}
+{{/* Based on Princeton GEO research + Google EEAT guidelines */}}
+
+{{/* llms.txt reference for AI context */}}
+<link rel="alternate" type="text/plain" href="{{ "llms.txt" | absURL }}" title="LLMs Context">
 
 {{ if .Params.schema }}
   {{/* Custom schema from front matter (FAQPage, Article, HowTo, etc) */}}
@@ -30,25 +34,33 @@
   </script>
   {{ end }}
 {{ else }}
-  {{/* Default Article schema with all GEO fields */}}
+  {{/* Default Article schema with GEO-optimization */}}
+{{/* Includes: citation references, speakable sections, dependencies */}}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": {{ .Title | jsonify }},
     "description": {{ (.Params.description | default .Summary) | jsonify }},
-    "image": {{ (.Params.feature_image | absURL) | jsonify }},
+    "image": [
+      {{ (.Params.feature_image | absURL) | jsonify }},
+      {{ (.Params.og_image | absURL) | jsonify }},
+      {{ "https://blog.mare.run/images/og-default.png" | jsonify }}
+    ],
     "author": {
       "@type": "Organization",
       "name": {{ .Site.Params.author | jsonify }},
-      "url": {{ .Site.BaseURL | jsonify }}
+      "url": {{ .Site.BaseURL | jsonify }},
+      "description": "Expert guides on visual reference management for cultural creatives"
     },
     "publisher": {
       "@type": "Organization",
       "name": {{ .Site.Params.author | jsonify }},
       "logo": {
         "@type": "ImageObject",
-        "url": {{ (.Site.Params.schema.publisherLogo | absURL) | jsonify }}
+        "url": {{ (.Site.Params.schema.publisherLogo | absURL) | jsonify }},
+        "width": 512,
+        "height": 512
       }
     },
     "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
@@ -60,7 +72,28 @@
     {{ with .Params.keywords }}
     "keywords": {{ . | jsonify }},
     {{ end }}
-    "inLanguage": "en-US"
+    {{ with .Params.article_section }}
+    "articleSection": {{ . | jsonify }},
+    {{ end }}
+    "inLanguage": "en-US",
+    "isAccessibleForFree": true,
+    {{ with .Params.cited_sources }}
+    "citation": [
+      {{ range $index, $source := . }}
+      {{ if $index }},{{ end }}
+      {
+        "@type": "CreativeWork",
+        "name": {{ $source.name | jsonify }},
+        "author": {{ $source.author | jsonify }},
+        "url": {{ $source.url | jsonify }}
+      }
+      {{ end }}
+    ],
+    {{ end }}
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": [".post-content", "article"]
+    }
   }
   </script>
 {{ end }}

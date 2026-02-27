@@ -1,47 +1,49 @@
 User-agent: *
 Allow: /
-Disallow: /ghost/
-Disallow: /admin/
-Disallow: /private/
-Disallow: /email/
-Disallow: /members/
 
-Sitemap: https://blog.mare.run/sitemap.xml
-
-# AI Search Engines — Allow crawling for citations
+# AI Search Engine Bots (GEO Critical)
+# Allow Perplexity to crawl and cite content
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: anthropic-ai
-Allow: /
-
+# Allow ChatGPT browsing
 User-agent: ChatGPT-User
 Allow: /
 
+# Allow OpenAI training (optional - remove if you don't want training)
 User-agent: GPTBot
 Allow: /
 
-User-agent: Bingbot
+# Allow Anthropic/Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
 Allow: /
 
+# Allow Google (includes Gemini/Bard)
 User-agent: Googlebot
 Allow: /
 
-User-agent: Googlebot-Image
+# Allow Bing (includes Copilot)
+User-agent: Bingbot
 Allow: /
 
-User-agent: Googlebot-News
+# Allow Brave (used by some AI systems including Claude)
+User-agent: BraveBot
 Allow: /
 
-User-agent: Googlebot-Video
-Allow: /
-
-# Crawl delay for heavy bots
+# Block spam/scrapers
 User-agent: AhrefsBot
-Crawl-delay: 10
+Disallow: /
 
 User-agent: SemrushBot
-Crawl-delay: 10
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://blog.mare.run/sitemap.xml
