@@ -1,6 +1,6 @@
 ---
 title: "Why Designers Are Leaving Pinterest in 2026: The Algorithm Problem"
-date: 2026-02-28T02:30:00+07:00
+date: 2026-02-27T22:00:00+07:00
 draft: false
 description: "The real reasons designers are quitting Pinterest in 2026. Based on interviews with 500+ designers and 3 years of platform changes."
 keywords: ["why designers hate pinterest", "designers leaving pinterest", "pinterest algorithm problems", "pinterest fatigue 2026"]
