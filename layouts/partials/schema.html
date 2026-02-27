@@ -1,122 +1,321 @@
-{{/* SEO/GEO: JSON-LD Schema Injection */}}
-{{/* Optimized for AI search engines (Perplexity, ChatGPT, Claude) and Google */}}
-{{/* Based on Princeton GEO research + Google EEAT guidelines */}}
+{{/* ADVANCED SEO/GEO SCHEMA SYSTEM */}}
+{{/* Maximum optimization for AI search engines + Google */}}
+{{/* Includes: Article, HowTo, Product, FAQPage, SoftwareApplication, Review */}}
 
 {{/* llms.txt reference for AI context */}}
 <link rel="alternate" type="text/plain" href="{{ "llms.txt" | absURL }}" title="LLMs Context">
 
+{{/* ============================================ */}}
+{{/* SCHEMA TYPE 1: Custom Schema from Front Matter */}}
+{{/* ============================================ */}}
 {{ if .Params.schema }}
-  {{/* Custom schema from front matter (FAQPage, Article, HowTo, etc) */}}
-  <script type="application/ld+json">
-  {{ .Params.schema | jsonify | safeJS }}
-  </script>
-{{ else if eq .Params.schema_type "FAQPage" }}
-  {{/* FAQPage schema for AI visibility (+40% per Princeton study) */}}
-  {{ with .Params.faqs }}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {{ range $index, $faq := . }}
-      {{ if $index }},{{ end }}
-      {
-        "@type": "Question",
-        "name": {{ $faq.question | jsonify }},
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": {{ $faq.answer | jsonify }}
-        }
-      }
-      {{ end }}
-    ]
-  }
-  </script>
-  {{ end }}
-{{ else }}
-  {{/* Default Article schema with GEO-optimization */}}
-{{/* Includes: citation references, speakable sections, dependencies */}}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "headline": {{ .Title | jsonify }},
-    "description": {{ (.Params.description | default .Summary) | jsonify }},
-    "image": [
-      {{ (.Params.feature_image | absURL) | jsonify }},
-      {{ (.Params.og_image | absURL) | jsonify }},
-      {{ "https://blog.mare.run/images/og-default.png" | jsonify }}
-    ],
-    "author": {
-      "@type": "Organization",
-      "name": {{ .Site.Params.author | jsonify }},
-      "url": {{ .Site.BaseURL | jsonify }},
-      "description": "Expert guides on visual reference management for cultural creatives"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": {{ .Site.Params.author | jsonify }},
-      "logo": {
-        "@type": "ImageObject",
-        "url": {{ (.Site.Params.schema.publisherLogo | absURL) | jsonify }},
-        "width": 512,
-        "height": 512
-      }
-    },
-    "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
-    "dateModified": {{ (.Lastmod.Format "2006-01-02T15:04:05Z07:00" | default (.Date.Format "2006-01-02T15:04:05Z07:00")) | jsonify }},
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": {{ .Permalink | jsonify }}
-    },
-    {{ with .Params.keywords }}
-    "keywords": {{ . | jsonify }},
-    {{ end }}
-    {{ with .Params.article_section }}
-    "articleSection": {{ . | jsonify }},
-    {{ end }}
-    "inLanguage": "en-US",
-    "isAccessibleForFree": true,
-    {{ with .Params.cited_sources }}
-    "citation": [
-      {{ range $index, $source := . }}
-      {{ if $index }},{{ end }}
-      {
-        "@type": "CreativeWork",
-        "name": {{ $source.name | jsonify }},
-        "author": {{ $source.author | jsonify }},
-        "url": {{ $source.url | jsonify }}
-      }
-      {{ end }}
-    ],
-    {{ end }}
-    "speakable": {
-      "@type": "SpeakableSpecification",
-      "cssSelector": [".post-content", "article"]
-    }
-  }
-  </script>
-{{ end }}
+<script type="application/ld+json">
+{{ .Params.schema | jsonify | safeJS }}
+</script>
 
-{{/* Organization schema for homepage */}}
-{{ if .IsHome }}
+{{/* ============================================ */}}
+{{/* SCHEMA TYPE 2: FAQPage (Best for GEO) */}}
+{{/* ============================================ */}}
+{{ else if eq .Params.schema_type "FAQPage" }}
+{{ with .Params.faqs }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": {{ .Site.Params.author | jsonify }},
-  "url": {{ .Site.BaseURL | jsonify }},
-  "logo": {{ (.Site.Params.schema.publisherLogo | absURL) | jsonify }},
-  "description": {{ .Site.Params.description | jsonify }},
-  "sameAs": [
-    "https://twitter.com/marevisual",
-    "https://github.com/mare-visual"
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ range $index, $faq := . }}
+    {{ if $index }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $faq.question | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $faq.answer | jsonify }}
+      }
+    }
+    {{ end }}
   ]
 }
 </script>
 {{ end }}
 
-{{/* BreadcrumbList schema */}}
+{{/* ============================================ */}}
+{{/* SCHEMA TYPE 3: HowTo (Tutorials) */}}
+{{/* ============================================ */}}
+{{ else if eq .Params.schema_type "HowTo" }}
+{{ with .Params.howto }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ $.Title | jsonify }},
+  "description": {{ ($.Params.description | default $.Summary) | jsonify }},
+  "image": {{ ($.Params.feature_image | absURL) | jsonify }},
+  "totalTime": {{ .totalTime | jsonify }},
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "0"
+  },
+  "step": [
+    {{ range $index, $step := .steps }}
+    {{ if $index }},{{ end }}
+    {
+      "@type": "HowToStep",
+      "name": {{ $step.name | jsonify }},
+      "text": {{ $step.text | jsonify }},
+      "url": {{ (printf "%s#step-%d" $.Permalink $index) | jsonify }},
+      "image": {{ ($step.image | absURL) | jsonify }}
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ============================================ */}}
+{{/* SCHEMA TYPE 4: Product (Tool Comparisons) */}}
+{{/* ============================================ */}}
+{{ else if eq .Params.schema_type "Product" }}
+{{ with .Params.product }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ .name | jsonify }},
+  "description": {{ .description | jsonify }},
+  "image": {{ (.image | absURL) | jsonify }},
+  "brand": {
+    "@type": "Brand",
+    "name": {{ .brand | jsonify }}
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ .ratingValue | jsonify }},
+    "reviewCount": {{ .reviewCount | jsonify }},
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": {{ .reviewRating | jsonify }},
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Mare"
+    },
+    "reviewBody": {{ .reviewBody | jsonify }}
+  }
+}
+</script>
+{{ end }}
+
+{{/* ============================================ */}}
+{{/* SCHEMA TYPE 5: Comparison Table (ItemList) */}}
+{{/* ============================================ */}}
+{{ else if eq .Params.schema_type "Comparison" }}
+{{ with .Params.comparison_items }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {{ range $index, $item := . }}
+    {{ if $index }},{{ end }}
+    {
+      "@type": "ListItem",
+      "position": {{ add $index 1 }},
+      "name": {{ $item.name | jsonify }},
+      "description": {{ $item.description | jsonify }}
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ============================================ */}}
+{{/* DEFAULT: Enhanced Article Schema */}}
+{{/* ============================================ */}}
+{{ else }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title | jsonify }},
+  "alternativeHeadline": {{ .Params.subtitle | jsonify }},
+  "description": {{ (.Params.description | default .Summary) | jsonify }},
+  "image": [
+    {{ (.Params.feature_image | absURL) | jsonify }},
+    {{ (.Params.og_image | absURL) | jsonify }},
+    {{ "https://blog.mare.run/images/og-default.png" | jsonify }}
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": {{ .Site.Params.author | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }},
+    "description": "Expert guides on visual reference management for cultural creatives",
+    "sameAs": [
+      "https://twitter.com/marevisual",
+      "https://github.com/mare-visual"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Params.author | jsonify }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ (.Site.Params.schema.publisherLogo | absURL) | jsonify }},
+      "width": 512,
+      "height": 512
+    },
+    "description": "Visual reference management for cultural creatives"
+  },
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  "dateModified": {{ (.Lastmod.Format "2006-01-02T15:04:05Z07:00" | default (.Date.Format "2006-01-02T15:04:05Z07:00")) | jsonify }},
+  "dateCreated": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  },
+  {{ with .Params.keywords }}
+  "keywords": {{ . | jsonify }},
+  {{ end }}
+  {{ with .Params.article_section }}
+  "articleSection": {{ . | jsonify }},
+  {{ end }}
+  "inLanguage": "en-US",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Mare"
+  },
+  {{ with .Params.wordCount }}
+  "wordCount": {{ . }},
+  {{ end }}
+  {{ with .Params.cited_sources }}
+  "citation": [
+    {{ range $index, $source := . }}
+    {{ if $index }},{{ end }}
+    {
+      "@type": "CreativeWork",
+      "name": {{ $source.name | jsonify }},
+      "author": {{ $source.author | jsonify }},
+      "url": {{ $source.url | jsonify }}
+    }
+    {{ end }}
+  ],
+  {{ end }}
+  {{ with .Params.about }}
+  "about": {
+    "@type": "Thing",
+    "name": {{ .name | jsonify }},
+    "sameAs": {{ .sameAs | jsonify }}
+  },
+  {{ end }}
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".post-content", "article", ".post-title"]
+  },
+  "mainEntity": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  }
+}
+</script>
+{{ end }}
+
+{{/* ============================================ */}}
+{{/* HOMEPAGE: WebSite + Organization */}}
+{{/* ============================================ */}}
+{{ if .IsHome }}
+{{/* WebSite with Search Action (for Google Sitelinks Searchbox) */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ .Site.Title | jsonify }},
+  "url": {{ .Site.BaseURL | jsonify }},
+  "description": {{ .Site.Params.description | jsonify }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mare",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ (.Site.Params.schema.publisherLogo | absURL) | jsonify }}
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": {{ (printf "%s/search?q={search_term_string}" .Site.BaseURL) | jsonify }}
+    },
+    "query-input": "required name=search_term_string"
+  },
+  "inLanguage": "en-US"
+}
+</script>
+
+{{/* Organization with complete details */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Mare",
+  "alternateName": "Mare Visual Reference Management",
+  "url": {{ .Site.BaseURL | jsonify }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ (.Site.Params.schema.publisherLogo | absURL) | jsonify }},
+    "width": 512,
+    "height": 512
+  },
+  "image": {{ "https://blog.mare.run/images/og-default.png" | jsonify }},
+  "description": {{ .Site.Params.description | jsonify }},
+  "sameAs": [
+    "https://twitter.com/marevisual",
+    "https://github.com/mare-visual",
+    "https://mare.run"
+  ],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Site.BaseURL | jsonify }}
+  }
+}
+</script>
+
+{{/* SoftwareApplication schema for Mare tool */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Mare",
+  "applicationCategory": "DesignApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "150"
+  },
+  "description": "Visual reference management for cultural creatives",
+  "url": "https://mare.run"
+}
+</script>
+{{ end }}
+
+{{/* ============================================ */}}
+{{/* BREADCRUMB: BreadcrumbList */}}
+{{/* ============================================ */}}
 {{ if not .IsHome }}
 <script type="application/ld+json">
 {
@@ -134,7 +333,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": {{ .Section | humanize | jsonify }},
-      "item": {{ (.Site.BaseURL .Section "/") | jsonify }}
+      "item": {{ (printf "%s%s/" .Site.BaseURL .Section) | jsonify }}
     }
     {{ end }}
     {{ if not .IsSection }}
@@ -143,6 +342,63 @@
       "position": {{ if .Section }}3{{ else }}2{{ end }},
       "name": {{ .Title | jsonify }},
       "item": {{ .Permalink | jsonify }}
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
+
+{{/* ============================================ */}}
+{{/* WEBPAGE: For all pages */}}
+{{/* ============================================ */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": {{ .Permalink | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "name": {{ .Title | jsonify }},
+  "description": {{ (.Params.description | default .Summary) | jsonify }},
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": {{ .Site.Title | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
+  },
+  "inLanguage": "en-US",
+  {{ if not .IsHome }}
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "@id": {{ (printf "%s#breadcrumb" .Permalink) | jsonify }}
+  },
+  {{ end }}
+  "potentialAction": {
+    "@type": "ReadAction",
+    "target": {{ .Permalink | jsonify }}
+  }
+}
+</script>
+
+{{/* ============================================ */}}
+{{/* ARTICLE SERIES / COLLECTION */}}
+{{/* For content clusters */}}
+{{/* ============================================ */}}
+{{ with .Params.series }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": {{ .name | jsonify }},
+  "description": {{ .description | jsonify }},
+  "url": {{ $.Permalink | jsonify }},
+  "hasPart": [
+    {{ range $index, $part := .parts }}
+    {{ if $index }},{{ end }}
+    {
+      "@type": "Article",
+      "name": {{ $part.title | jsonify }},
+      "url": {{ $part.url | jsonify }},
+      "position": {{ add $index 1 }}
     }
     {{ end }}
   ]

@@ -1,49 +1,240 @@
+# robots.txt for blog.mare.run
+# SEO/GEO Optimized — Updated 2026-02-27
+# Purpose: Allow all legitimate crawlers including AI search engines
+
+# ============================================
+# GLOBAL RULES (All Bots)
+# ============================================
 User-agent: *
 Allow: /
 
-# AI Search Engine Bots (GEO Critical)
-# Allow Perplexity to crawl and cite content
+# Standard crawl delay (respectful to server)
+Crawl-delay: 1
+
+# ============================================
+# AI SEARCH ENGINE BOTS (GEO Critical)
+# These bots power AI search citations
+# ============================================
+
+# Perplexity AI (perplexity.ai)
 User-agent: PerplexityBot
 Allow: /
+Crawl-delay: 0.5
 
-# Allow ChatGPT browsing
+# OpenAI / ChatGPT (chatgpt.com)
 User-agent: ChatGPT-User
 Allow: /
+Crawl-delay: 0.5
 
-# Allow OpenAI training (optional - remove if you don't want training)
+# OpenAI Training Crawler
 User-agent: GPTBot
 Allow: /
+Crawl-delay: 1
 
-# Allow Anthropic/Claude
+# Anthropic / Claude (claude.ai)
 User-agent: ClaudeBot
 Allow: /
+Crawl-delay: 0.5
+
 User-agent: anthropic-ai
 Allow: /
+Crawl-delay: 0.5
 
-# Allow Google (includes Gemini/Bard)
+# Google (includes Gemini/Bard)
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0.5
 
-# Allow Bing (includes Copilot)
-User-agent: Bingbot
+# Google Image Search
+User-agent: Googlebot-Image
 Allow: /
 
-# Allow Brave (used by some AI systems including Claude)
+# Google News (if applicable)
+User-agent: Googlebot-News
+Allow: /
+
+# Bing (includes Copilot)
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0.5
+
+# Microsoft Edge (used for some AI features)
+User-agent: MicrosoftEdge
+Allow: /
+
+# DuckDuckGo (privacy-focused, growing AI features)
+User-agent: DuckDuckBot
+Allow: /
+
+# Brave Search (used by Claude and others)
 User-agent: BraveBot
 Allow: /
 
-# Block spam/scrapers
+# Neeva (AI search, now Snowflake)
+User-agent: NeevaBot
+Allow: /
+
+# You.com (AI search engine)
+User-agent: YouBot
+Allow: /
+
+# ============================================
+# TRADITIONAL SEARCH ENGINES
+# ============================================
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# Baidu (China)
+User-agent: Baiduspider
+Allow: /
+
+# Yandex (Russia/Eastern Europe)
+User-agent: Yandex
+Allow: /
+
+# ============================================
+# SEO TOOLS (Legitimate, Rate Limited)
+# ============================================
+
+# Ahrefs (SEO analysis)
 User-agent: AhrefsBot
 Disallow: /
+# Reason: High crawl frequency, not needed for content discovery
 
+# SEMrush (SEO analysis)
 User-agent: SemrushBot
 Disallow: /
+# Reason: High crawl frequency, not needed for content discovery
 
+# Moz (SEO analysis)
+User-agent: Moz-dotbot
+Disallow: /
+
+# Screaming Frog (SEO crawler)
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Crawl-delay: 5
+
+# ============================================
+# SOCIAL MEDIA CRAWLERS
+# ============================================
+
+# Facebook/Meta
+User-agent: facebookexternalhit
+Allow: /
+
+# Twitter/X
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Pinterest
+User-agent: Pinterestbot
+Allow: /
+
+# Discord
+User-agent: Discordbot
+Allow: /
+
+# Telegram
+User-agent: TelegramBot
+Allow: /
+
+# ============================================
+# ARCHIVE/RESEARCH BOTS (Allowed)
+# ============================================
+
+# Internet Archive
+User-agent: ia_archiver
+Allow: /
+
+# Common Crawl (research dataset)
+User-agent: CCBot
+Allow: /
+
+# Academic crawlers
+User-agent: omgili
+Allow: /
+
+# ============================================
+# BLOCKED BOTS (Spam/Scrapers)
+# ============================================
+
+# MJ12bot (spammy SEO crawler)
 User-agent: MJ12bot
 Disallow: /
 
+# DotBot (aggressive crawler)
 User-agent: DotBot
 Disallow: /
 
-# Sitemap
+# PetalBot (Huawei, aggressive)
+User-agent: PetalBot
+Disallow: /
+
+# Bytespider (TikTok, data harvesting)
+User-agent: Bytespider
+Disallow: /
+
+# DataForSeo (SEO tool, aggressive)
+User-agent: DataForSeoBot
+Disallow: /
+
+# SERPstat (SEO tool, aggressive)
+User-agent: serpstatbot
+Disallow: /
+
+# SiteAuditBot (aggressive)
+User-agent: SiteAuditBot
+Disallow: /
+
+# SEOkicks (German SEO tool, aggressive)
+User-agent: SEOkicks-Robot
+Disallow: /
+
+# BLEXBot (SEO crawler, aggressive)
+User-agent: BLEXBot
+Disallow: /
+
+# Wotbox (questionable)
+User-agent: Wotbox
+Disallow: /
+
+# Turnitin (anti-plagiarism, not needed here)
+User-agent: TurnitinBot
+Disallow: /
+
+# ============================================
+# SITEMAPS
+# ============================================
+
+# Main sitemap
 Sitemap: https://blog.mare.run/sitemap.xml
+
+# RSS feed (also helps discovery)
+Sitemap: https://blog.mare.run/index.xml
+
+# ============================================
+# NOTES
+# ============================================
+# 
+# AI Search Engine List (kept current as of 2026-02-27):
+# - Perplexity: PerplexityBot
+# - ChatGPT: ChatGPT-User, GPTBot
+# - Claude: ClaudeBot, anthropic-ai
+# - Gemini: Googlebot (same as Google)
+# - Copilot: Bingbot (same as Bing)
+# - Brave Search: BraveBot
+#
+# This robots.txt prioritizes:
+# 1. AI search engine visibility (GEO)
+# 2. Traditional search engine indexing (SEO)
+# 3. Social media sharing (Open Graph/Twitter Cards)
+# 4. Archive preservation (Internet Archive)
+#
+# Updated: 2026-02-27
