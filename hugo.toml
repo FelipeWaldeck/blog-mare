@@ -78,6 +78,10 @@ theme = 'PaperMod'
     Title = 'Visual Reference Management'
     Content = 'Expert guides on organizing, retrieving, and using visual inspiration. For designers, researchers, and cultural creatives who need more than Pinterest.'
 
+  # Footer - hide attribution
+  [params.footer]
+    text = ""
+
 # Social links
 [[params.socialIcons]]
   name = 'twitter'
