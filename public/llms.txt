@@ -29,11 +29,23 @@ Mare Blog publishes expert guides on visual reference management, creative archi
 - AI-powered organization
 
 # Content Statistics
-Total Articles: 1
-Topics: 5
-Last Updated: 2026-02-27
+Total Articles: 6
+Topics: 8
+Last Updated: 2026-02-28
 
 # Recent Articles
+
+- Why Designers Are Leaving Pinterest in 2026: The Algorithm Problem (2026-02-27)
+  URL: https://blog.mare.run/why-designers-are-leaving-pinterest-in-2026-the-algorithm-problem/
+  Description: The real reasons designers are quitting Pinterest in 2026. Based on interviews with 500+ designers and 3 years of platform changes.
+  
+  
+
+- The Complete Guide to Pinterest Alternatives for Designers (2026) (2026-02-27)
+  URL: https://blog.mare.run/the-complete-guide-to-pinterest-alternatives-for-designers-2026/
+  Description: The definitive guide to Pinterest alternatives for designers in 2026. Based on 500+ designer interviews and 30 days of hands-on testing with every major tool.
+  
+  
 
 - How to Break Your Pinterest Addiction: A Designer's Guide to Reclaiming Creativity (2025-02-27)
   URL: https://blog.mare.run/pinterest-addiction-designers/
@@ -41,14 +53,38 @@ Last Updated: 2026-02-27
   Tags: pinterest, design workflow, creativity, productivity, design psychology
   
 
+- Are.na Alternative: Why Visual Designers Are Switching to Mare (2024-02-04)
+  URL: https://blog.mare.run/arena-alternative/
+  
+  Tags: mare, alternative, design-tools
+  
+
+- Cosmos.so Alternative: When Visual World-Building Needs Structure (2024-02-04)
+  URL: https://blog.mare.run/cosmos-alternative/
+  
+  Tags: mare, alternative, design-tools
+  
+
+- Pinterest Alternative for Professional Designers (2024-02-04)
+  URL: https://blog.mare.run/pinterest-alternative/
+  
+  Tags: mare, alternative, design-tools
+  
+
 
 # Popular Topics
+
+- Alternative (3 articles)
 
 - Creativity (1 articles)
 
 - Design Psychology (1 articles)
 
 - Design Workflow (1 articles)
+
+- Design-Tools (3 articles)
+
+- Mare (3 articles)
 
 - Pinterest (1 articles)
 
