@@ -1,0 +1,10 @@
+name = "blog-mare"
+compatibility_date = "2026-03-01"
+pages_build_output_dir = "public"
+
+[build]
+command = "hugo"
+directory = "public"
+
+[site]
+bucket = "public"
