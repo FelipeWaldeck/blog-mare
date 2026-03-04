@@ -1,5 +1,3 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
 ---
 title: "Why Designers Are Leaving Pinterest in 2026: The Algorithm Problem"
 date: 2026-02-27T22:00:00+07:00

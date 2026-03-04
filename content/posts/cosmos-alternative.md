@@ -1,5 +1,3 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
 ---
 title: "Cosmos.so Alternative: When Visual World-Building Needs Structure"
 date: 2024-02-04T10:00:00+07:00

@@ -1,5 +1,3 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
 ---
 title: "The Complete Guide to Pinterest Alternatives for Designers (2026)"
 date: 2026-02-27T20:00:00+07:00
