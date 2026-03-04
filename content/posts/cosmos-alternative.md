@@ -1,9 +1,12 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Cosmos.so Alternative: When Visual World-Building Needs Structure"
 date: 2024-02-04T10:00:00+07:00
 draft: false
-tags: ["mare", "alternative", "design-tools"]
+tags: ["mare", "alternative", "design-tools", "cosmos", "visual organization"]
 categories: ["tools"]
+description: "Cosmos.so offers visual world-building but lacks search and performance at scale. Discover Mare's search-first alternative for professional designers."
 url: "/cosmos-alternative/"
 ---
 

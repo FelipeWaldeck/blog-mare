@@ -1,7 +1,11 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "The Complete Guide to Pinterest Alternatives for Designers (2026)"
 date: 2026-02-27T20:00:00+07:00
 draft: false
+tags: ["pinterest", "alternatives", "comparison", "design-tools", "visual reference management"]
+categories: ["Guides"]
 description: "The definitive guide to Pinterest alternatives for designers in 2026. Based on 500+ designer interviews and 30 days of hands-on testing with every major tool."
 keywords: ["pinterest alternatives 2026", "pinterest alternative for designers", "best pinterest alternative without algorithm", "visual reference tools", "design inspiration platforms"]
 article_section: "Guides"

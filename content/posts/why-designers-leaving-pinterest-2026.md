@@ -1,7 +1,11 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Why Designers Are Leaving Pinterest in 2026: The Algorithm Problem"
 date: 2026-02-27T22:00:00+07:00
 draft: false
+tags: ["pinterest", "design trends", "algorithm", "design psychology", "productivity"]
+categories: ["Trends"]
 description: "The real reasons designers are quitting Pinterest in 2026. Based on interviews with 500+ designers and 3 years of platform changes."
 keywords: ["why designers hate pinterest", "designers leaving pinterest", "pinterest algorithm problems", "pinterest fatigue 2026"]
 article_section: "Trends"
