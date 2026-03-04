@@ -7,9 +7,17 @@
     {{- $url := .Permalink -}}
     {{- if not (index $seen $url) -}}
       {{- $seen = merge $seen (dict $url true) -}}
+      {{- /* Get the best date: Lastmod > Date > now */ -}}
+      {{- $lastmod := .Lastmod -}}
+      {{- if eq $lastmod.Year 1 -}}
+        {{- $lastmod = .Date -}}
+      {{- end -}}
+      {{- if eq $lastmod.Year 1 -}}
+        {{- $lastmod = now -}}
+      {{- end -}}
       <url>
         <loc>{{ .Permalink }}</loc>
-        <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
+        <lastmod>{{ $lastmod.Format "2006-01-02T15:04:05Z07:00" }}</lastmod>
         <changefreq>{{ cond (eq .Kind "page") "weekly" "daily" }}</changefreq>
         <priority>{{ cond (eq .Kind "page") "0.8" "0.5" }}</priority>
       </url>
