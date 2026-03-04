@@ -1,5 +1,3 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
 baseURL = 'https://blog.mare.run'
 languageCode = 'en-us'
 title = 'Mare Blog — Visual Reference Management'
@@ -11,17 +9,11 @@ theme = 'PaperMod'
   changefreq = 'weekly'
   priority = 0.5
   maxItems = 5000
-  disable = false
-  exclude = ['/search/', '/404.html']
 
-# CRITICAL: Preserve Ghost URL structure for SEO
-[permalinks]
-  posts = '/:slug/'
-
-# Build settings for performance
+# Build settings - enableGitInfo for dynamic lastmod
 [build]
-  enableGitInfo = true
   writeStats = true
+  enableGitInfo = true
   
 # Markup settings for SEO
 [markup]
@@ -40,9 +32,9 @@ theme = 'PaperMod'
   description = 'Expert guides on visual reference management, creative archiving, and design workflows for cultural creatives. Discover better alternatives to Pinterest and Are.na.'
   keywords = ['visual reference management', 'creative archiving', 'design workflow', 'pinterest alternative', 'are.na alternative']
   
-  # Google Search Console Verification
+  # Google Search Console Verification - REPLACE WITH YOUR ACTUAL CODE
   [params.analytics]
-    google = { SiteVerificationTag = 'google-site-verification-code' }
+    google = { SiteVerificationTag = 'YOUR-GSC-VERIFICATION-CODE' }
   
   # PaperMod settings
   defaultTheme = 'auto'
