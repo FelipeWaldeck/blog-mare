@@ -1,10 +1,15 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Pinterest Alternative for Professional Designers"
-date: 2024-02-04T10:00:00+07:00
+date: 2026-03-05T10:00:00+07:00
 draft: false
 tags: ["mare", "alternative", "design-tools", "pinterest", "design workflow"]
 categories: ["tools"]
 description: "Pinterest algorithm, flat boards, and no team features hold professional designers back. See how Mare solves these problems."
+keywords: ["pinterest alternative", "pinterest replacement", "design reference tools", "professional designer tools", "mare pinterest comparison"]
 ---
 
 # Pinterest Alternative for Professional Designers

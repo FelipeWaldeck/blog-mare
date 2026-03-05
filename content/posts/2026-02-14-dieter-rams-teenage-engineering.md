@@ -1,9 +1,13 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Dieter Rams and Teenage Engineering: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
+description: "Tracing how Dieter Rams' functionalist principles influenced Teenage Engineering's portable synthesizers. How design ethics adapt from kitchen counters to backpacks."
 tags: [dieter-rams,teenage-engineering,braun,functionalism,portable-studio]
 categories: ["cultural-jump"]
+keywords: ["dieter rams teenage engineering", "functionalism portable devices", "braun design legacy"]
 ---
 
 # Dieter Rams and Teenage Engineering: A Cultural Jump

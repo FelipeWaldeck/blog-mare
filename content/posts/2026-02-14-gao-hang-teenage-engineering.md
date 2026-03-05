@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Gao Hang and Teenage Engineering: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Connecting Gao Hang's screen life aesthetic with Teenage Engineering's portable music devices. How context defines reception across digital and physical interfaces."
+tags: ["cultural-jump", "gao-hang", "teenage-engineering", "digital-art", "hardware"]
 categories: ["cultural-jump"]
+keywords: ["gao hang teenage engineering", "screen life hardware aesthetic", "digital physical interface connection"]
 ---
-
----
-title: Gao Hang and Teenage Engineering: A Cultural Jump
 slug: gao-hang-teenage-engineering-cultural-jump
 excerpt: The connection between Low-Poly 3D Graphics and Nintendo Game & Watch reveals how context defines reception
 tags: cultural-jump, gao-hang, teenage-engineering

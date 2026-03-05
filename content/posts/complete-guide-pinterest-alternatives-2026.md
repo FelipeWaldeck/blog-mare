@@ -1,3 +1,5 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "The Complete Guide to Pinterest Alternatives for Designers (2026)"
 date: 2026-02-27T20:00:00+07:00
@@ -404,6 +406,15 @@ Your future self will thank you when you can find that perfect reference in 10 s
 - Migrate your active project references
 - Archive (or delete) the rest
 - Build a workflow that actually works
+
+---
+
+## Related Posts
+
+- [Pinterest vs Are.na vs Mare: Which Tool Fits Your Workflow?](/posts/pinterest-vs-arena-vs-mare/)
+- [How to Migrate from Pinterest to a Better System](/posts/how-to-migrate-from-pinterest/)
+- [Why Designers Are Leaving Pinterest in 2026](/posts/why-designers-leaving-pinterest-2026/)
+- [Organizing Inspiration Without Pinterest](/posts/organizing-inspiration-without-pinterest/)
 
 ---
 

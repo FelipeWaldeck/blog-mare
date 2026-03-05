@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Dieter Rams and Gao Hang: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Exploring how Bauhaus design principles connect with Gao Hang's screen life aesthetics. Cultural translation across different design eras and contexts."
+tags: ["cultural-jump", "dieter-rams", "gao-hang", "bauhaus", "design"]
 categories: ["cultural-jump"]
+keywords: ["dieter rams gao hang", "bauhaus chinese art connection", "design cultural translation"]
 ---
-
----
-title: Dieter Rams and Gao Hang: A Cultural Jump
 slug: dieter-rams-gao-hang-cultural-jump
 excerpt: Bauhaus School and Post-90s Chinese Artists Diaspora share a concern with cultural translation
 tags: cultural-jump, dieter-rams, gao-hang

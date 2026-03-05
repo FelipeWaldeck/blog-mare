@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Dieter Rams and Pierre Huyghe & Philippe Parreno: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Connecting Dieter Rams' functional design principles with Huyghe & Parreno's relational aesthetics. How material constraints shape artistic practice across decades."
+tags: ["cultural-jump", "dieter-rams", "pierre-huyghe", "philippe-parreno", "design"]
 categories: ["cultural-jump"]
+keywords: ["dieter rams huyghe parreno", "functionalism relational aesthetics", "design art connection"]
 ---
-
----
-title: Dieter Rams and Pierre Huyghe & Philippe Parreno: A Cultural Jump
 slug: dieter-rams-pierre-huyghe-&-philippe-parreno-cultural-jump
 excerpt: What connects Skeuomorphism vs Flat Design and Marcel Duchamp - Readymades: material constraints
 tags: cultural-jump, dieter-rams, pierre-huyghe-&-philippe-parreno

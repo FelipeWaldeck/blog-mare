@@ -1,9 +1,13 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Superstudio and Pierre Huyghe & Philippe Parreno: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: [superstudio,pierre-huyghe,philippe-parreno,relational-aesthetics,radical-architecture,annlee*  ]
+description: "Examining how Superstudio's Continuous Monument transforms into Huyghe & Parreno's collaborative art practice. From architectural scale to networked authorship."
+tags: [superstudio,pierre-huyghe,philippe-parreno,relational-aesthetics,radical-architecture,annlee]
 categories: ["cultural-jump"]
+keywords: ["superstudio huyghe parreno", "continuous monument annlee", "radical architecture relational aesthetics"]
 ---
 
 # Superstudio and Pierre Huyghe & Philippe Parreno: A Cultural Jump

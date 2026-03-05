@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Gao Hang and Pierre Huyghe & Philippe Parreno: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Tracing the connection between Gao Hang's screen life work and Huyghe & Parreno's relational aesthetics. How vaporwave and contemporary art share common aesthetic concerns."
+tags: ["cultural-jump", "gao-hang", "pierre-huyghe", "philippe-parreno", "contemporary-art"]
 categories: ["cultural-jump"]
+keywords: ["gao hang huyghe parreno", "vaporwave relational aesthetics", "contemporary art connection"]
 ---
-
----
-title: Gao Hang and Pierre Huyghe & Philippe Parreno: A Cultural Jump
 slug: gao-hang-pierre-huyghe-&-philippe-parreno-cultural-jump
 excerpt: Vaporwave Aesthetic → Nicolas Bourriaud - Relational Aesthetics: continuity across contexts
 tags: cultural-jump, gao-hang, pierre-huyghe-&-philippe-parreno

@@ -1,10 +1,15 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Are.na Alternative: Why Visual Designers Are Switching to Mare"
-date: 2024-02-04T10:00:00+07:00
+date: 2026-03-05T10:00:00+07:00
 draft: false
 tags: ["mare", "alternative", "design-tools", "are.na", "visual reference management"]
 categories: ["tools"]
 description: "Are.na is beautiful but lacks quick capture, visual search, and client sharing. See why professional designers are switching to Mare."
+keywords: ["are.na alternative", "are.na replacement", "visual reference tools", "design tool comparison", "mare vs are.na"]
 ---
 
 # Are.na Alternative: Why Visual Designers Are Switching to Mare

@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Dieter Rams and Superstudio: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Examining the connection between Dieter Rams' functionalism and Superstudio's radical architecture. Ideological frameworks that shaped design thinking across different movements."
+tags: ["cultural-jump", "dieter-rams", "superstudio", "functionalism", "architecture"]
 categories: ["cultural-jump"]
+keywords: ["dieter rams superstudio", "functionalism radical architecture", "design ideology connection"]
 ---
-
----
-title: Dieter Rams and Superstudio: A Cultural Jump
 slug: dieter-rams-superstudio-cultural-jump
 excerpt: What connects Hans Gugelot and Archizoom Associati: ideological frameworks
 tags: cultural-jump, dieter-rams, superstudio

@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Superstudio and Teenage Engineering: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Examining the connection between Superstudio's radical architecture and Teenage Engineering's portable studio culture. How design ethics translate across physical and digital scales."
+tags: ["cultural-jump", "superstudio", "teenage-engineering", "architecture", "hardware"]
 categories: ["cultural-jump"]
+keywords: ["superstudio teenage engineering", "radical architecture portable studio", "design ethics hardware"]
 ---
-
----
-title: Superstudio and Teenage Engineering: A Cultural Jump
 slug: superstudio-teenage-engineering-cultural-jump
 excerpt: Both Archizoom Associati and Lofi Hip-Hop Movement demonstrate the ethics of design
 tags: cultural-jump, superstudio, teenage-engineering

@@ -1,9 +1,13 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Gao Hang and Burial: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: [gao-hang,burial,hauntology,vaporwave,tang-dynasty,uk-garage*  ]
+description: "Connecting Tang dynasty terracotta with South London pirate radio through Gao Hang and Burial. How emotional residue persists across 1200 years of cultural production."
+tags: [gao-hang,burial,hauntology,vaporwave,tang-dynasty,uk-garage]
 categories: ["cultural-jump"]
+keywords: ["gao hang burial", "tang dynasty uk garage connection", "hauntology cultural memory"]
 ---
 
 # Gao Hang and Burial: A Cultural Jump

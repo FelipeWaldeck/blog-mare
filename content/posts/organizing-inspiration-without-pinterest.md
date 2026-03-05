@@ -1,3 +1,5 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Organizing Inspiration Without Pinterest: A Designer's Guide"
 date: 2026-03-05T14:00:00+07:00
@@ -270,6 +272,15 @@ Folders = one home per item. Tags = item can live everywhere.
 
 **How long does the workflow take?**
 Daily: 2 minutes. Weekly: 15 minutes. Monthly: 30 minutes.
+
+---
+
+## Related Posts
+
+- [Visual Reference Management: Complete Workflow Guide](/posts/visual-reference-management-guide/)
+- [The 30-Second Reference Retrieval Challenge](/posts/30-second-retrieval-challenge/)
+- [Why Your Inspiration System Isn't Working](/posts/inspiration-system-not-working/)
+- [How to Find That One Reference You Saved 3 Months Ago](/posts/find-old-references/)
 
 ---
 

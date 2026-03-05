@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Superstudio and Pierre Huyghe & Philippe Parreno: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Connecting Superstudio's Continuous Monument with Huyghe & Parreno's No Ghost Just a Shell. How monumentality transforms from architecture to relational art practice."
+tags: ["cultural-jump", "superstudio", "pierre-huyghe", "philippe-parreno", "relational-aesthetics"]
 categories: ["cultural-jump"]
+keywords: ["superstudio huyghe parreno", "continuous monument no ghost just shell", "monumentality relational art"]
 ---
-
----
-title: Superstudio and Pierre Huyghe & Philippe Parreno: A Cultural Jump
 slug: superstudio-pierre-huyghe-&-philippe-parreno-cultural-jump
 excerpt: Both Continuous Monument and Doug Aitken - Interiors demonstrate the persistence of form
 tags: cultural-jump, superstudio, pierre-huyghe-&-philippe-parreno

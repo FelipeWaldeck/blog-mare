@@ -1,3 +1,5 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "How to Break Your Pinterest Addiction: A Designer's Guide to Reclaiming Creativity"
 date: 2025-02-27T10:00:00Z
@@ -5,6 +7,7 @@ slug: "pinterest-addiction-designers"
 tags: ["pinterest", "design workflow", "creativity", "productivity", "design psychology"]
 categories: ["workflow"]
 description: "73% of designers spend 2-4 hours daily on Pinterest. Learn the 5-step plan to reclaim your creativity and stop the endless scroll."
+keywords: ["pinterest addiction designers", "pinterest productivity", "break pinterest habit", "creative workflow without pinterest", "design inspiration alternatives"]
 feature_image: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=1200"
 
 # GEO-SEO Fields

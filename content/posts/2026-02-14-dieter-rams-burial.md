@@ -1,13 +1,14 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
-title: "---"
+title: "Dieter Rams and Burial: A Cultural Jump"
 date: 2026-02-14T10:00:00+07:00
 draft: false
-tags: []
+description: "Exploring the connection between Dieter Rams' design principles and Burial's music. How temporal positioning creates resonance across different cultural domains."
+tags: ["cultural-jump", "dieter-rams", "burial", "design", "music"]
 categories: ["cultural-jump"]
+keywords: ["dieter rams burial connection", "design and music cultural analysis", "functionalism in music"]
 ---
-
----
-title: Dieter Rams and Burial: A Cultural Jump
 slug: dieter-rams-burial-cultural-jump
 excerpt: What connects Otto Aplhabet (Otl Aicher) and Joy Division - Unknown Pleasures: temporal positioning
 tags: cultural-jump, dieter-rams, burial
