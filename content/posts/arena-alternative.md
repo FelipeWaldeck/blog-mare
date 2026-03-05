@@ -5,7 +5,6 @@ draft: false
 tags: ["mare", "alternative", "design-tools", "are.na", "visual reference management"]
 categories: ["tools"]
 description: "Are.na is beautiful but lacks quick capture, visual search, and client sharing. See why professional designers are switching to Mare."
-url: "/arena-alternative/"
 ---
 
 # Are.na Alternative: Why Visual Designers Are Switching to Mare

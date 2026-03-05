@@ -5,7 +5,6 @@ draft: false
 tags: ["mare", "alternative", "design-tools", "pinterest", "design workflow"]
 categories: ["tools"]
 description: "Pinterest algorithm, flat boards, and no team features hold professional designers back. See how Mare solves these problems."
-url: "/pinterest-alternative/"
 ---
 
 # Pinterest Alternative for Professional Designers

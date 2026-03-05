@@ -14,6 +14,20 @@ theme = 'PaperMod'
 [build]
   writeStats = true
   enableGitInfo = true
+
+# Related posts configuration
+[related]
+  maxAge = "720h"
+  threshold = 30
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "categories"
+    weight = 60
+  [[related.indices]]
+    name = "keywords"
+    weight = 40
   
 # Markup settings for SEO
 [markup]
