@@ -1,18 +1,23 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 baseURL = 'https://blog.mare.run'
 languageCode = 'en-us'
 title = 'Mare Blog — Visual Reference Management'
 theme = 'PaperMod'
 
+# Sitemap configuration
 [sitemap]
   filename = 'sitemap.xml'
   changefreq = 'weekly'
   priority = 0.5
   maxItems = 5000
 
+# Build settings
 [build]
   writeStats = true
   enableGitInfo = true
 
+# Related posts configuration
 [related]
   maxAge = "720h"
   threshold = 30
@@ -25,7 +30,8 @@ theme = 'PaperMod'
   [[related.indices]]
     name = "keywords"
     weight = 40
-
+  
+# Markup settings for SEO
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -35,15 +41,18 @@ theme = 'PaperMod'
     lineNos = true
     codeFences = true
 
+# SEO & Site Parameters
 [params]
   env = 'production'
   author = 'Mare'
-  description = 'Expert guides on visual reference management, creative archiving, and design workflows for cultural creatives.'
+  description = 'Expert guides on visual reference management, creative archiving, and design workflows for cultural creatives. Discover better alternatives to Pinterest and Are.na.'
   keywords = ['visual reference management', 'creative archiving', 'design workflow', 'pinterest alternative', 'are.na alternative']
   
+  # Google Search Console Verification
   [params.analytics]
     google = { SiteVerificationTag = 'Vm8_OmT6GQ54auqldMgwWhRI00vLBxq-Us-Eu5V6SrM' }
   
+  # PaperMod settings
   defaultTheme = 'auto'
   ShowShareButtons = true
   ShowReadingTime = true
@@ -61,18 +70,28 @@ theme = 'PaperMod'
   showtoc = true
   tocopen = false
   
+  # Assets
   assets = { favicon = '/favicon.ico', favicon16x16 = '/favicon-16x16.png', favicon32x32 = '/favicon-32x32.png', apple_touch_icon = '/apple-touch-icon.png', safari_pinned_tab = '/safari-pinned-tab.svg' }
   images = ['/images/og-default.png']
   
+  # Image optimization
+  [params.images]
+    quality = 80
+    resample = true
+    lqip = true
+  
+  # Schema settings
   [params.schema]
     enabled = true
     type = 'BlogPosting'
     publisher = 'Mare'
     publisherLogo = '/images/logo.png'
   
+  # LLMs.txt settings
   [params.llms]
     enableTxt = true
   
+  # Profile
   [params.profile]
     name = 'Mare'
     subtitle = 'Visual Reference Management for Cultural Creatives'
@@ -80,13 +99,15 @@ theme = 'PaperMod'
     imageTitle = 'Mare'
     buttons = [{ name = 'Try Mare', url = 'https://mare.run' }]
   
+  # Home page info
   [params.homeInfoParams]
     Title = 'Visual Reference Management'
-    Content = 'Expert guides on organizing, retrieving, and using visual inspiration.'
-  
+    Content = 'Expert guides on organizing, retrieving, and using visual inspiration. For designers, researchers, and cultural creatives who need more than Pinterest.'
+
   [params.footer]
     text = ""
 
+# Social links
 [[params.socialIcons]]
   name = 'twitter'
   url = 'https://twitter.com/marevisual'
@@ -95,6 +116,7 @@ theme = 'PaperMod'
   name = 'github'
   url = 'https://github.com/mare-visual'
 
+# Menu structure
 [[menu.main]]
   identifier = 'home'
   name = 'Home'
@@ -119,10 +141,12 @@ theme = 'PaperMod'
   url = '/search/'
   weight = 40
 
+# Taxonomies
 [taxonomies]
   tag = 'tags'
   category = 'categories'
 
+# Privacy
 [privacy]
   disqus = { disable = true }
   googleAnalytics = { disable = true }
@@ -131,13 +155,16 @@ theme = 'PaperMod'
   vimeo = { disable = true }
   youtube = { disable = true }
 
+# Output formats
 [outputs]
   home = ['HTML', 'RSS', 'JSON', 'LLMS']
-
+  
+# Media types
 [mediaTypes]
   [mediaTypes.'text/plain']
     suffixes = ['txt']
 
+# Output formats
 [outputFormats]
   [outputFormats.LLMS]
     mediaType = 'text/plain'

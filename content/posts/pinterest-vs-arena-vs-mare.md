@@ -1,5 +1,7 @@
 bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Pinterest vs Are.na vs Mare: Which Visual Reference Tool Fits Your Workflow?"
 date: 2026-03-05T14:00:00+07:00
@@ -8,7 +10,16 @@ description: "Compare Pinterest, Are.na, and Mare for visual reference managemen
 tags: ["pinterest", "are.na", "mare", "comparison", "tools", "visual reference"]
 categories: ["tools"]
 keywords: ["pinterest vs arena", "pinterest vs mare", "are.na vs mare", "visual reference tools comparison", "best tool for designers"]
-schema_type: "Comparison"
+schema_type: "FAQPage"
+faqs:
+  - question: "Can I use all three tools together?"
+    answer: "Yes—many designers do. Use Pinterest for public discovery, Are.na for active collaborations, and Mare for private archives. The key is being intentional about what goes where."
+  - question: "Which tool is best for client work?"
+    answer: "Mare. Privacy is non-negotiable for professional work, and only Mare offers true privacy with full control."
+  - question: "What if I've built my archive on Are.na?"
+    answer: "Export everything manually before migrating. Are.na doesn't offer bulk export, so this is tedious but necessary. Your archive represents hours of curation—protect it."
+  - question: "Is Pinterest still worth using for designers?"
+    answer: "Yes, for discovery only. Don't rely on Pinterest for anything you can't afford to lose. Their algorithm prioritizes engagement, not utility."
 ---
 
 ## Quick Answer

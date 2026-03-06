@@ -1,0 +1,28 @@
+# Cloudflare Headers for blog.mare.run
+
+# Cache static assets for 1 year
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache HTML for 1 hour (short for freshness)
+*.html
+  Cache-Control: public, max-age=3600
+
+# Cache JSON/RSS for 1 hour
+*.json
+  Cache-Control: public, max-age=3600
+
+# Cache XML for 1 hour
+*.xml
+  Cache-Control: public, max-age=3600
+
+# Enable compression
+/*
+  Content-Encoding: gzip
+  Vary: Accept-Encoding
+
+# Security headers
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin

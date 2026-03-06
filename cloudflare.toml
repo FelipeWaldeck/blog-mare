@@ -1,3 +1,5 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 name = "blog-mare"
 compatibility_date = "2026-03-01"
 pages_build_output_dir = "public"
@@ -8,3 +10,24 @@ directory = "public"
 
 [site]
 bucket = "public"
+
+# Caching rules
+[[custom_pages_rules]]
+  name = "Static Assets"
+  match = "static/*"
+  cache = "bypass"
+  
+[[custom_pages_rules]]
+  name = "HTML"
+  match = "*.html"
+  cache = "bypass"
+
+[[custom_pages_rules]]
+  name = "Assets"
+  match = "*.css"
+  edge_cache = true
+  
+[[custom_pages_rules]]
+  name = "JavaScript"
+  match = "*.js"
+  edge_cache = true

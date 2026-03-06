@@ -1,3 +1,5 @@
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "Free Alternative to Are.na: The Complete Guide for Designers"
 date: 2026-03-05T14:00:00+07:00
@@ -6,6 +8,16 @@ description: "Are.na is beautiful but expensive. Discover the best free alternat
 tags: ["are.na", "alternatives", "free", "visual reference", "tools"]
 categories: ["tools"]
 keywords: ["free alternative to are.na", "are.na alternative free", "visual bookmarking", "design reference tools"]
+schema_type: "FAQPage"
+faqs:
+  - question: "Is Mare really free?"
+    answer: "Yes. Core features are free forever. No item limits, no hidden costs."
+  - question: "Can I import from Are.na easily?"
+    answer: "Export from Are.na as JSON, then use Mare's browser extension to upload. Manual but doable."
+  - question: "What about the slow web philosophy?"
+    answer: "Mare respects your attention. No likes, no comments, no algorithmic feeds."
+  - question: "Will my data be safe?"
+    answer: "Export anytime. You're never locked in."
 ---
 
 ## The Are.na Problem

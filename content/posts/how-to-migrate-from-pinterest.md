@@ -1,5 +1,7 @@
 bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
 ---
 title: "How to Migrate from Pinterest to a Better Design Reference System"
 date: 2026-03-05T14:00:00+07:00
@@ -8,6 +10,16 @@ description: "Tired of Pinterest's algorithm? Learn how to migrate your design r
 tags: ["pinterest", "migration", "reference management", "design workflow"]
 categories: ["guides"]
 keywords: ["migrate from pinterest", "pinterest export", "design reference system", "visual library", "mare"]
+schema_type: "FAQPage"
+faqs:
+  - question: "Will I lose my Pinterest if I migrate?"
+    answer: "No. Migrating means copying your references elsewhere. Pinterest still exists."
+  - question: "How long does migration take?"
+    answer: "For 1,000 pins: 2-3 hours for the full process. For 10,000 pins: a weekend project."
+  - question: "Is Mare really free?"
+    answer: "Yes. The core features are free forever. No credit card required."
+  - question: "What if I don't like it?"
+    answer: "Export your data anytime. You're never locked in."
 ---
 
 ## The Problem with Pinterest in 2026
