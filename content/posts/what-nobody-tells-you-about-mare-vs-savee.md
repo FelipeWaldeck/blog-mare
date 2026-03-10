@@ -1,6 +1,6 @@
 ---
 title: "What Nobody Tells You About Mare Vs Savee"
-date: 2026-03-09T00:00:00Z
+date: 2026-03-01T00:00:00Z
 draft: false
 slug: what-nobody-tells-you-about-mare-vs-savee
 description: "An honest guide to what nobody tells you about mare vs savee for designers"
