@@ -1,6 +1,6 @@
 ---
 title: "What Nobody Tells You About Web Design Case Study Presentation"
-date: 2026-03-10T22:17:00Z
+date: 2026-03-09T00:00:00Z
 draft: false
 slug: what-nobody-tells-you-about-web-design-case-study-presentation
 description: "An honest guide to what nobody tells you about web design case study presentation for designers"

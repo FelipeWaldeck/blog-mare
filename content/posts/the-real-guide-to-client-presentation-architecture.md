@@ -1,6 +1,6 @@
 ---
 title: "The Real Guide to Client Presentation Architecture"
-date: 2026-03-10T22:17:00Z
+date: 2026-03-09T00:00:00Z
 draft: false
 slug: the-real-guide-to-client-presentation-architecture
 description: "An honest guide to the real guide to client presentation architecture for designers"
