@@ -28,16 +28,18 @@ if [[ $(git status --porcelain) ]]; then
     echo "Deploying to Cloudflare Pages..."
     cd public
     
-    # Deploy via wrangler - use token from environment or .dev.vars
-    # Try to load from .dev.vars if not in environment
-    if [ -z "$CLOUDFLARE_API_TOKEN" ] && [ -f "$HOME/.openclaw/workspace/cloudflare-mare/browser-renderer/.dev.vars" ]; then
-        export CLOUDFLARE_API_TOKEN=$(grep "CF_API_TOKEN" "$HOME/.openclaw/workspace/cloudflare-mare/browser-renderer/.dev.vars" | cut -d'=' -f2)
-    fi
+    # Deploy via wrangler
+    # Clear any existing token to force OAuth login
+    unset CLOUDFLARE_API_TOKEN
+    unset CF_API_TOKEN
     
     export CLOUDFLARE_ACCOUNT_ID="019659a790e2050c808616a4fb1ef4ca"
     
-    # Clear deprecated CF_API_TOKEN if set
-    unset CF_API_TOKEN
+    # Check if already logged in, if not use OAuth
+    if ! wrangler whoami >/dev/null 2>&1; then
+        echo "Not logged in. Running 'wrangler login'..."
+        wrangler login
+    fi
     
     wrangler pages deploy . --project-name=blog-mare --commit-dirty=true
     

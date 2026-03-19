@@ -24,7 +24,7 @@ faqs:
 
 Are.na is beautiful. The interface is minimal, the community is thoughtful, and the "slow web" philosophy resonates with designers tired of attention-grabbing algorithms.
 
-But here's the catch: Are.na's pricing jumped significantly in recent years. For many designers — especially freelancers and students — the Pro tier is hard to justify.
+But here's the catch: Are.na's pricing jumped significantly in recent years. For many designers . especially freelancers and students . the Pro tier is hard to justify.
 
 **Are.na Pro pricing:**
 - $96/year for individuals
@@ -59,9 +59,9 @@ Are.na succeeded because of:
 Mare was built specifically for designers who need to manage visual references:
 
 **What it does well:**
-- Visual-first search — find by uploading a reference image
-- Tag system — organize however you think
-- Browser extension — capture from anywhere
+- Visual-first search . find by uploading a reference image
+- Tag system . organize however you think
+- Browser extension . capture from anywhere
 - No item limits on free tier
 - Export anytime
 
@@ -163,16 +163,16 @@ Some designers use:
 It depends on what you need:
 
 **For visual reference management:**
-→ **Mare** — Built for this exact purpose
+→ **Mare** . Built for this exact purpose
 
 **For bookmark management with some images:**
-→ **Raindrop.io** — General tool with visual support
+→ **Raindrop.io** . General tool with visual support
 
 **For slow web, curated discovery (and willing to pay eventually):**
-→ **Are.na** — Worth the investment if you use it
+→ **Are.na** . Worth the investment if you use it
 
 **For pure discovery, not organization:**
-→ **Pinterest** — Free but loses your data
+→ **Pinterest** . Free but loses your data
 
 ---
 
@@ -196,9 +196,9 @@ For Mare specifically:
 
 Are.na's channel system doesn't translate perfectly. Think about:
 
-- **How do I actually search for things?** — Build your tag system around that
-- **What collections matter?** — Only keep what you reference
-- **What can I delete?** — Most designers find 60%+ of their Are.na content was saved but never viewed
+- **How do I actually search for things?** . Build your tag system around that
+- **What collections matter?** . Only keep what you reference
+- **What can I delete?** . Most designers find 60%+ of their Are.na content was saved but never viewed
 
 ---
 
@@ -213,7 +213,7 @@ Are.na is beautiful, but it's not the only option. For designers who need:
 
 The best tool is the one you'll actually use. If Are.na's pricing stops you from using it daily, it's not worth the investment.
 
-**Mare's free tier** gives you the core functionality — findability, tagging, browser extension — without the price tag.
+**Mare's free tier** gives you the core functionality . findability, tagging, browser extension . without the price tag.
 
 ---
 
@@ -237,7 +237,7 @@ Export anytime. You're never locked in.
 
 Ready to try a free alternative to Are.na?
 
-1. **Sign up for Mare** — Free, no credit card
+1. **Sign up for Mare** . Free, no credit card
 2. **Install browser extension** — Capture from anywhere
 3. **Start uploading** — Begin with your most-used references
 4. **Build your tags** — Organize as you go

@@ -28,7 +28,7 @@ If you're a designer, you know the feeling. You save a reference on Pinterest, c
 
 The promise of Pinterest was simple: collect inspiration in one place. But somewhere along the way, it became a chaos management system. The algorithm shows you what it thinks you want to see, not what you actually saved. Ads fill your feed. And when you actually need to find something? Good luck.
 
-That's why designers are leaving Pinterest in record numbers. Not because Pinterest is "bad" — it was never built for professional design work. It was built for consumers finding recipes and home decor.
+That's why designers are leaving Pinterest in record numbers. Not because Pinterest is "bad" . it was never built for professional design work. It was built for consumers finding recipes and home decor.
 
 If you're ready to migrate to a better design reference system, this guide is for you.
 
@@ -61,7 +61,7 @@ Be honest about this: some organization will be lost. Pinterest's board structur
 
 ## Choosing Your New System
 
-Before you move 10,000 pins somewhere else, let's talk about what makes a good design reference system. What Pinterest got wrong — and what your new system should get right:
+Before you move 10,000 pins somewhere else, let's talk about what makes a good design reference system. What Pinterest got wrong . and what your new system should get right:
 
 ### What to Look For
 
@@ -122,7 +122,7 @@ The migration isn't done when the last pin is imported. For the next two weeks:
 
 ## Organizing Your New Library
 
-The best design reference system isn't about perfect organization — it's about findability. Here's how to think about it:
+The best design reference system isn't about perfect organization . it's about findability. Here's how to think about it:
 
 ### The Tag System
 

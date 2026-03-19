@@ -49,7 +49,7 @@ This is the #1 complaint.
 - You save a few, thinking they're related
 - Six months later, you need that original 1923 poster
 - It's buried under 200 "Bauhaus-inspired" pins from 2019
-- You search "Bauhaus 1923 poster"—Pinterest shows you algorithmic recommendations instead
+- You search "Bauhaus 1923 poster".Pinterest shows you algorithmic recommendations instead
 - You never find it
 
 **Real quote from a graphic designer in Brooklyn:**
@@ -76,7 +76,7 @@ Pinterest's algorithm is designed to keep you scrolling. That's its job.
 
 You open Pinterest to find that specific reference for a client project. Two hours later, you've saved 47 pins, forgotten why you opened the app, and still don't have what you need.
 
-**The psychology:** Variable reward scheduling—the same mechanism that makes slot machines addictive.
+**The psychology:** Variable reward scheduling.the same mechanism that makes slot machines addictive.
 
 **Real quote from an art director in London:**
 > "I deleted Pinterest from my phone after I realized I was spending 90 minutes a day scrolling and creating nothing. It felt like the app was designed to prevent me from working, not help me."
@@ -90,7 +90,7 @@ You open Pinterest to find that specific reference for a client project. Two hou
 This one hurts the most.
 
 **What happens:**
-- You save a stunning photograph from a photographer's portfolio
+- You save a striking photograph from a photographer's portfolio
 - Six months later, you want to hire that photographer
 - You click the pin
 - The link is broken, or leads to a 404, or goes to a spam site
@@ -111,7 +111,7 @@ This one hurts the most.
 
 ### 4. The Homogenization of Taste (73% of Designers)
 
-This is the subtlest problem—and the most damaging long-term.
+This is the subtlest problem.and the most damaging long-term.
 
 **How it works:**
 1. You save a Tarkovsky film still
@@ -231,7 +231,7 @@ The problems aren't technical. They're business model problems.
 - 📉 Algorithm-free mode removes the engagement hook
 - 📉 They make $2.8B/year from ads
 
-Pinterest isn't broken. It's working exactly as designed. **You're just not the customer—you're the product.**
+Pinterest isn't broken. It's working exactly as designed. **You're just not the customer.you're the product.**
 
 ---
 
@@ -272,7 +272,7 @@ Pinterest isn't broken. It's working exactly as designed. **You're just not the 
 
 ## The Bottom Line
 
-Pinterest didn't become a bad tool overnight. It became a **different** tool—a platform optimized for engagement and advertising, not for designer workflows.
+Pinterest didn't become a bad tool overnight. It became a **different** tool.a platform optimized for engagement and advertising, not for designer workflows.
 
 That's fine. Pinterest can be what it wants to be.
 
@@ -291,7 +291,7 @@ Those tools exist. They're just not Pinterest anymore.
 
 If you're considering leaving Pinterest, here are your options:
 
-- **[Are.na](https://www.are.na)** — Best for collaborative research and sharing
+- **[Are.na](https://www.are.na)** . Best for collaborative research and sharing
 - **[Mare](https://mare.run)** — Best for private visual archives
 - **[Milanote](https://www.milanote.com)** — Best for client presentations
 - **[PureRef](https://www.pureref.com)** — Best for offline, local storage

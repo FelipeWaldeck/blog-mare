@@ -18,15 +18,15 @@ This guide covers both the psychology of retrieval and the practical tools that 
 
 ## The Psychology of Forgetting (and Finding)
 
-Human memory isn't like a hard drive—you don't store files and retrieve them unchanged. Memory is reconstructive. Every time you remember something, you're rebuilding the memory from fragments. This is actually good news for reference retrieval because it means you can reconstruct the saving context even years later.
+Human memory isn't like a hard drive.you don't store files and retrieve them unchanged. Memory is reconstructive. Every time you remember something, you're rebuilding the memory from fragments. This is actually good news for reference retrieval because it means you can reconstruct the saving context even years later.
 
 Three factors determine whether you'll find a reference:
 
-**State-dependent memory.** You save references in specific states—during specific projects, with specific problems in mind, while in specific emotional states. Retrieving references is easier when you can reconstruct that state.
+**State-dependent memory.** You save references in specific states.during specific projects, with specific problems in mind, while in specific emotional states. Retrieving references is easier when you can reconstruct that state.
 
-**Context-dependent cues.** The environment where you saved a reference—browser tabs open, music playing, time of day, project deadline—becomes a retrieval cue. Context cues fade over time, but emotional and project-based cues are more durable.
+**Context-dependent cues.** The environment where you saved a reference.browser tabs open, music playing, time of day, project deadline.becomes a retrieval cue. Context cues fade over time, but emotional and project-based cues are more durable.
 
-**Distinctiveness.** The more uniquely you save a reference—not just saving it but noting why, tagging it with context—the easier it is to find later. Most references fail retrieval because they're stored identically to hundreds of others.
+**Distinctiveness.** The more uniquely you save a reference.not just saving it but noting why, tagging it with context.the easier it is to find later. Most references fail retrieval because they're stored identically to hundreds of others.
 
 ---
 
@@ -44,12 +44,12 @@ Check your project folders, your calendar entries from that period, or your proj
 
 ### R: Rough Characteristics
 
-What do you remember about the image itself? Not details—big-picture characteristics:
+What do you remember about the image itself? Not details.big-picture characteristics:
 
-- **Dominant color** — Was it warm or cool? Light or dark?
-- **Rough era** — Contemporary, vintage, retro-futuristic?
-- **Medium** — Photography, illustration, 3D render, collage?
-- **Complexity** — Minimal or intricate?
+- **Dominant color** . Was it warm or cool? Light or dark?
+- **Rough era** . Contemporary, vintage, retro-futuristic?
+- **Medium** . Photography, illustration, 3D render, collage?
+- **Complexity** . Minimal or complex?
 
 Even "I think it was kind of blue" narrows your search significantly.
 
@@ -57,7 +57,7 @@ Even "I think it was kind of blue" narrows your search significantly.
 
 How did the reference make you feel when you saved it? Excited? Challenged? Relieved?
 
-Emotional memory is often more durable than visual memory. You might forget what an image looked like but remember that it solved a problem you were having—that "aha" feeling of finding exactly what you needed.
+Emotional memory is often more durable than visual memory. You might forget what an image looked like but remember that it solved a problem you were having.that "aha" feeling of finding exactly what you needed.
 
 Search by emotion: "that reference that showed me how to solve the layout problem."
 
@@ -65,11 +65,11 @@ Search by emotion: "that reference that showed me how to solve the layout proble
 
 What concepts does this reference connect to? What problem was it solving?
 
-This is where tagging helps enormously—but only if your tags reflect concepts rather than just categories. "Header layout solutions" is better than just "layout." "Skin-tone palette" is better than just "palette."
+This is where tagging helps enormously.but only if your tags reflect concepts rather than just categories. "Header layout solutions" is better than just "layout." "Skin-tone palette" is better than just "palette."
 
 ### M: Most Recent Use
 
-When did you last access this reference? Not when you saved it—when you actually used it in a project?
+When did you last access this reference? Not when you saved it.when you actually used it in a project?
 
 Recent access often provides the strongest retrieval cue. Check recently modified files, recent project folders, recent exports. You likely accessed this reference because you needed it, so the access context is often close to the retrieval context.
 
@@ -81,7 +81,7 @@ Beyond C.R.E.A.M., these strategies work well:
 
 ### Reverse chronological browsing
 
-If you sort your reference library by date, browsing backward from today often surfaces what you're looking for. You remember seeing something "around the time of that project"—reverse chronological helps you triangulate when.
+If you sort your reference library by date, browsing backward from today often surfaces what you're looking for. You remember seeing something "around the time of that project".reverse chronological helps you triangulate when.
 
 ### Source hunting
 
@@ -93,7 +93,7 @@ Many reference tools now support visual search by color. If you remember the dom
 
 ### Text-based search in descriptions
 
-If you've added descriptions, notes, or annotations to your references, search within those text fields. Your past self left notes for your future self—use them.
+If you've added descriptions, notes, or annotations to your references, search within those text fields. Your past self left notes for your future self.use them.
 
 ### Time-based browsing
 
@@ -149,13 +149,13 @@ Make saving slightly slower by adding context in the moment: a quick note, a rou
 
 ### Review Weekly, Not Monthly
 
-Weekly inbox reviews keep your library fresh in memory. You remember what you saved this week—you can still ask "why did I save this?" The answer is still accessible.
+Weekly inbox reviews keep your library fresh in memory. You remember what you saved this week.you can still ask "why did I save this?" The answer is still accessible.
 
 Monthly reviews work for maintenance but lose the contextual memory that makes tagging meaningful.
 
 ### Create Retrieval Triggers
 
-Every time you successfully find a reference, notice how you found it. Did you use a specific tag? A specific search term? Note these patterns—they're the keys to your personal retrieval system.
+Every time you successfully find a reference, notice how you found it. Did you use a specific tag? A specific search term? Note these patterns.they're the keys to your personal retrieval system.
 
 ### Use Project Assignment
 
@@ -163,7 +163,7 @@ Assign references to projects as you save them. Project assignment creates a pow
 
 ### Build "Known Unknowns" Lists
 
-Not everything needs to be found immediately. Create a list of references you saved but can't quite find—you might encounter them again serendipitously, and when you do, you'll remember why you wanted them.
+Not everything needs to be found immediately. Create a list of references you saved but can't quite find.you might encounter them again serendipitously, and when you do, you'll remember why you wanted them.
 
 ---
 
@@ -173,7 +173,7 @@ Sometimes, despite your best efforts, you simply can't find a reference. Here's 
 
 **Reconstruct from memory.** Draw or describe what you're looking for. The act of reconstructing often triggers recognition.
 
-**Return to the source.** If you remember where you found it originally—Pinterest, a specific website, a designer's portfolio—go back and search again.
+**Return to the source.** If you remember where you found it originally.Pinterest, a specific website, a designer's portfolio.go back and search again.
 
 **Post a request.** Describe what you're looking for in a design community. Someone else may have saved something similar.
 
@@ -197,7 +197,7 @@ Probably not. If you can't find it, you probably won't. The exception: reference
 
 ### How many tags should each reference have?
 
-Three to five is usually optimal. Fewer provides insufficient retrieval path; more becomes unmanageable. Focus on tags that represent distinct retrieval dimensions—color, use, mood—rather than redundant categories.
+Three to five is usually optimal. Fewer provides insufficient retrieval path; more becomes unmanageable. Focus on tags that represent distinct retrieval dimensions.color, use, mood—rather than redundant categories.
 
 ### What if I save references across multiple tools?
 

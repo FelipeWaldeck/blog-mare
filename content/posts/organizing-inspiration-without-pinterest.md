@@ -58,10 +58,10 @@ The alternative is simple: organize by tags, not folders.
 
 ### Why Tags Win
 
-- **Multi-dimensional** — One item can have 10 tags
-- **Searchable** — Find everything with "red" AND "typography"
-- **Flexible** — Add new tags without reorganizing everything
-- **Discoverable** — See all items with a tag, even across "folders"
+- **Multi-dimensional** . One item can have 10 tags
+- **Searchable** . Find everything with "red" AND "typography"
+- **Flexible** . Add new tags without reorganizing everything
+- **Discoverable** . See all items with a tag, even across "folders"
 
 ### The Tag System Framework
 
@@ -94,7 +94,7 @@ For organizing without Pinterest, use three columns:
 
 ### Column 1: Inbox (Daily Capture)
 
-Everything goes here first. Don't organize while capturing — you'll never keep up.
+Everything goes here first. Don't organize while capturing . you'll never keep up.
 
 - Browser extension drag
 - Screenshot capture
@@ -132,10 +132,10 @@ Pinterest alternatives that support tag-first organization:
 
 Built for visual reference with tag-first design:
 
-- **Visual search** — Find by uploading a similar image
-- **Tag system** — Unlimited tags per item
-- **Browser extension** — Capture from anywhere
-- **No algorithm** — See everything you saved
+- **Visual search** . Find by uploading a similar image
+- **Tag system** . Unlimited tags per item
+- **Browser extension** . Capture from anywhere
+- **No algorithm** . See everything you saved
 
 **Best for:** Designers who prioritize findability
 
@@ -145,9 +145,9 @@ Built for visual reference with tag-first design:
 
 Bookmark manager with visual support:
 
-- **Tag system** — Organize bookmarks
-- **Browser extension** — Capture from anywhere
-- **Free tier** — 1,000 bookmarks
+- **Tag system** . Organize bookmarks
+- **Browser extension** . Capture from anywhere
+- **Free tier** . 1,000 bookmarks
 
 **Best for:** Mixed content (articles + images)
 
@@ -250,10 +250,10 @@ Pinterest works for discovery. It doesn't work for retrieval. If you're organizi
 
 The alternative is simple:
 
-1. **Capture fast** — Browser extension, 3 seconds max
-2. **Tag later** — Weekly review, add meaningful tags
-3. **Search everything** — Tags + visual search
-4. **Review regularly** — Monthly maintenance
+1. **Capture fast** . Browser extension, 3 seconds max
+2. **Tag later** . Weekly review, add meaningful tags
+3. **Search everything** . Tags + visual search
+4. **Review regularly** . Monthly maintenance
 
 Mare's tag-first system is built for this exact workflow. No algorithm, no ads, just your references organized your way.
 
@@ -288,7 +288,7 @@ Daily: 2 minutes. Weekly: 15 minutes. Monthly: 30 minutes.
 
 Ready to organize without Pinterest?
 
-1. **Try Mare free** — No credit card, no time limit
+1. **Try Mare free** . No credit card, no time limit
 2. **Install browser extension** — Capture from anywhere
 3. **Start tagging** — Begin with 3-5 tags per item
 4. **Review weekly** — Build the habit

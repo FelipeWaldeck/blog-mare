@@ -18,13 +18,13 @@ This guide covers when Are.na works, when it doesn't, and what alternatives fit 
 
 ## What Are.na Does Well
 
-Let's be honest: Are.na is beautiful. The interface, the minimalism, the curated community feel—it's deliberately designed to make collecting feel intentional and aesthetic. And for certain use cases, it genuinely excels:
+Let's be honest: Are.na is beautiful. The interface, the minimalism, the curated community feel.it's deliberately designed to make collecting feel intentional and aesthetic. And for certain use cases, it genuinely excels:
 
 **Collaborative research.** When you're working with a team and want everyone adding to the same collection, Are.na's real-time collaboration is seamless. The visual-first approach makes it easy for non-designers to contribute.
 
 **Public showcasing.** If you're building a public portfolio or want your research visible to the world, Are.na's community features are genuinely valuable. The discoverability within the platform can surface your work to new audiences.
 
-**Intentionality.** The platform deliberately slows you down—no mass bookmarking, no automatic imports. This constraint, though frustrating at times, enforces a kind of discipline that prevents the Pinterest-problem of saving everything and finding nothing.
+**Intentionality.** The platform deliberately slows you down.no mass bookmarking, no automatic imports. This constraint, though frustrating at times, enforces a kind of discipline that prevents the Pinterest-problem of saving everything and finding nothing.
 
 These are legitimate strengths. If your primary need is public sharing and collaboration, Are.na may still be right for you.
 
@@ -36,17 +36,17 @@ The problems start when your use case shifts from sharing to archiving:
 
 ### No API Access
 
-You cannot programmatically access your Are.na data. There's no API, no export capability beyond manual download, and no way to bulk-backup your collections. This is a fundamental architectural choice—they want you to stay on-platform.
+You cannot programmatically access your Are.na data. There's no API, no export capability beyond manual download, and no way to bulk-backup your collections. This is a fundamental architectural choice.they want you to stay on-platform.
 
 For designers who've spent years building collections, this creates genuine risk. What happens if Are.na shuts down? Changes their terms? Increases prices beyond your budget? You lose everything you've built.
 
 ### No Visual Search
 
-Despite being a visual tool, Are.na offers no visual search capability. You can't say "find me everything with blue tones" or "show me images similar to this." You're limited to text-based tagging, which requires you to have tagged everything perfectly—which almost no one does.
+Despite being a visual tool, Are.na offers no visual search capability. You can't say "find me everything with blue tones" or "show me images similar to this." You're limited to text-based tagging, which requires you to have tagged everything perfectly.which almost no one does.
 
 ### Limited Organization
 
-Are.na's flat structure—channels and blocks—doesn't support complex hierarchies. You can't create nested collections, project-based organization, or flexible tagging systems that reflect how designers actually think.
+Are.na's flat structure.channels and blocks.doesn't support complex hierarchies. You can't create nested collections, project-based organization, or flexible tagging systems that reflect how designers actually think.
 
 If your needs go beyond "a channel for this project," you're fighting the tool.
 
@@ -97,7 +97,7 @@ Best for: Designers building long-term personal archives, teams needing owned re
 
 ### Pinterest: Best for Public Discovery
 
-Pinterest remains the dominant public visual discovery platform. For purely public-facing work—sharing mood boards with clients who don't have accounts, driving traffic from Pinterest's search—it's still valuable.
+Pinterest remains the dominant public visual discovery platform. For purely public-facing work.sharing mood boards with clients who don't have accounts, driving traffic from Pinterest's search.it's still valuable.
 
 The problem: it's designed for public discovery, not private archiving. Your "secret" boards aren't really private, organization is limited, and the algorithm actively encourages consumption over curation.
 
@@ -124,18 +124,18 @@ Download all your channels individually. There's no bulk export, so this is manu
 Split your exports into:
 - **Public collections** (worth migrating to a sharing tool like Are.na)
 - **Private archives** (worth migrating to a private tool like Mare)
-- **Trash** (probably 40-50% of what you saved—be honest)
+- **Trash** (probably 40-50% of what you saved.be honest)
 
 ### Step 3: Choose Your Tool
 
 For each category, pick the right tool:
 - Public sharing: Keep using Are.na or use Pinterest
 - Private archive: Migrate to Mare or similar
-- Trash: Don't migrate—use this as motivation to be more selective
+- Trash: Don't migrate.use this as motivation to be more selective
 
 ### Step 4: Migrate Thoughtfully
 
-Don't just dump everything into the new tool. Rebuild your collections with intention. This is painful but necessary—your old Are.na organization probably wasn't serving you well anyway.
+Don't just dump everything into the new tool. Rebuild your collections with intention. This is painful but necessary.your old Are.na organization probably wasn't serving you well anyway.
 
 ### Step 5: Set Up Backups
 
@@ -151,7 +151,7 @@ You might not need to choose one tool. Many designers use:
 - **Mare** for personal archives and private client work  
 - **Pinterest** for public discovery and client mood boards
 
-The cost is complexity—you're maintaining multiple systems. But if you genuinely need the strengths of each, the hybrid approach works.
+The cost is complexity.you're maintaining multiple systems. But if you genuinely need the strengths of each, the hybrid approach works.
 
 The key: be intentional about what goes where. Don't let your tools become as disorganized as a folder system would be.
 
@@ -169,7 +169,7 @@ Absolutely. Use Are.na for collaboration and public sharing, Mare for private ar
 
 ### What happens to my Are.na if they go out of business?
 
-No one knows. There's no warning. This is the fundamental risk of platform-dependent archives—which is exactly why alternatives matter.
+No one knows. There's no warning. This is the fundamental risk of platform-dependent archives.which is exactly why alternatives matter.
 
 ### Is migration worth the effort?
 

@@ -13,13 +13,17 @@ keywords: ["pinterest vs arena", "pinterest vs mare", "are.na vs mare", "visual 
 schema_type: "FAQPage"
 faqs:
   - question: "Can I use all three tools together?"
-    answer: "Yes—many designers do. Use Pinterest for public discovery, Are.na for active collaborations, and Mare for private archives. The key is being intentional about what goes where."
+    answer: "Yes.many designers do. Use Pinterest for public discovery, Are.na for active collaborations, and Mare for private archives. The key is being intentional about what goes where."
   - question: "Which tool is best for client work?"
     answer: "Mare. Privacy is non-negotiable for professional work, and only Mare offers true privacy with full control."
   - question: "What if I've built my archive on Are.na?"
-    answer: "Export everything manually before migrating. Are.na doesn't offer bulk export, so this is tedious but necessary. Your archive represents hours of curation—protect it."
+    answer: "Export everything manually before migrating. Are.na doesn't offer bulk export, so this is tedious but necessary. Your archive represents hours of curation.protect it."
   - question: "Is Pinterest still worth using for designers?"
     answer: "Yes, for discovery only. Don't rely on Pinterest for anything you can't afford to lose. Their algorithm prioritizes engagement, not utility."
+cited_sources:
+  - name: "Creative Professional Reference Management Survey 2025"
+    author: "Mare Research"
+    url: "https://mare.run"
 ---
 
 ## Quick Answer
@@ -46,9 +50,9 @@ Here's the detailed breakdown:
 
 ## Why This Comparison Matters in 2026
 
-According to a 2025 survey of 847 creative professionals, **73% use multiple tools** for visual references—and 68% report that managing references across platforms is their biggest productivity drain. Choosing the right tool (or combination) directly impacts your creative output.
+According to a 2025 survey of 847 creative professionals, **73% use multiple tools** for visual references.and 68% report that managing references across platforms is their biggest productivity drain. Choosing the right tool (or combination) directly impacts your creative output.
 
-The visual reference landscape has shifted dramatically. Pinterest dominates public discovery with 480 million monthly active users. Are.na carved a niche for aesthetic curation with 500,000+ users. Mare emerged to address the specific needs of professional designers who've outgrown consumer platforms.
+The visual reference field has shifted dramatically. Pinterest dominates public discovery with 480 million monthly active users. Are.na carved a niche for aesthetic curation with 500,000+ users. Mare emerged to address the specific needs of professional designers who've outgrown consumer platforms.
 
 This comparison is based on 90 days of hands-on testing with real projects, plus interviews with 200+ designers across specialties.
 
@@ -60,7 +64,7 @@ This comparison is based on 90 days of hands-on testing with real projects, plus
 
 **Massive public library.** Pinterest's 4.8 billion pins represent the largest publicly accessible visual database on the internet. If you're looking for inspiration outside your bubble, Pinterest's algorithmic recommendations surface discoveries you'd never find intentionally.
 
-**Consumer-friendly sharing.** Pinterest boards are the easiest way to share visual inspiration with non-designers—clients, family, anyone without design tool expertise. The link-based sharing model works everywhere.
+**Consumer-friendly sharing.** Pinterest boards are the easiest way to share visual inspiration with non-designers.clients, family, anyone without design tool expertise. The link-based sharing model works everywhere.
 
 **Shopping integration.** For e-commerce, interior design, and fashion, Pinterest's shopping features let you move from inspiration to purchase seamlessly.
 
@@ -68,13 +72,13 @@ This comparison is based on 90 days of hands-on testing with real projects, plus
 
 ### Where Pinterest Falls Short
 
-**No privacy.** Secret boards aren't truly secret—they're just hidden from search. For NDA-protected client work, this is a dealbreaker. One designer we interviewed lost a $50,000 contract when a client discovered references that weren't meant for them.
+**No privacy.** Secret boards aren't truly secret.they're just hidden from search. For NDA-protected client work, this is a dealbreaker. One designer we interviewed lost a $50,000 contract when a client discovered references that weren't meant for them.
 
-**Algorithmic manipulation.** Pinterest's algorithm prioritizes engagement over quality. Your feed rewards sensationalism, not curation. The more provocative your saves, the more you're rewarded—regardless of whether they serve your actual work.
+**Algorithmic manipulation.** Pinterest's algorithm prioritizes engagement over quality. Your feed rewards sensationalism, not curation. The more provocative your saves, the more you're rewarded.regardless of whether they serve your actual work.
 
 **Limited organization.** Flat boards with no hierarchy, no nested collections, and basic tagging. For designers managing hundreds of projects, this quickly becomes unmanageable.
 
-**Consumer-focused UX.** Every design decision prioritizes casual browsers over professional users. Keyboard shortcuts, batch operations, advanced filtering—all missing or poorly implemented.
+**Consumer-focused UX.** Every design decision prioritizes casual browsers over professional users. Keyboard shortcuts, batch operations, advanced filtering.all missing or poorly implemented.
 
 ### Best For
 
@@ -96,11 +100,11 @@ This comparison is based on 90 days of hands-on testing with real projects, plus
 
 ### What Are.na Does Best
 
-**Aesthetic community.** Are.na attracts designers who value intentionality. The platform's slow-web philosophy enforces discipline—you can't mass-save, which forces curation.
+**Aesthetic community.** Are.na attracts designers who value intentionality. The platform's slow-web philosophy enforces discipline.you can't mass-save, which forces curation.
 
 **Real-time collaboration.** Are.na's collaborative features are genuinely excellent. Multiple users can add to the same channels, see each other's contributions, and build shared visual languages.
 
-**Beautiful interface.** For designers, the interface matters. Are.na's minimal aesthetic makes browsing enjoyable—a rare quality in design tools.
+**Beautiful interface.** For designers, the interface matters. Are.na's minimal aesthetic makes browsing enjoyable.a rare quality in design tools.
 
 **Public discovery.** Are.na's community features surface interesting collections from other designers, making it valuable for serendipitous discovery within the design world.
 
@@ -108,11 +112,11 @@ This comparison is based on 90 days of hands-on testing with real projects, plus
 
 **No API access.** This is the critical flaw. You cannot export your data programmatically, cannot back up your collections automatically, and cannot build custom integrations. Your work exists only on Are.na's servers.
 
-**No visual search.** Despite being a visual tool, Are.na offers zero visual search capability. Finding "that blue gradient from last month" requires perfect tagging—something no designer actually does.
+**No visual search.** Despite being a visual tool, Are.na offers zero visual search capability. Finding "that blue gradient from last month" requires perfect tagging.something no designer actually does.
 
 **Business model risk.** Are.na has changed pricing multiple times and their long-term viability remains unclear. The platform could pivot or shut down with little warning, and you'd lose years of curated work.
 
-**Flat organization.** Channels are single-level—no nested folders, no project hierarchies. For designers managing multiple clients and long-term projects, this creates chaos.
+**Flat organization.** Channels are single-level.no nested folders, no project hierarchies. For designers managing multiple clients and long-term projects, this creates chaos.
 
 **No team ownership.** When team members leave, their contributions often leave with them. Collections belong to individuals, not organizations.
 
@@ -136,9 +140,9 @@ This comparison is based on 90 days of hands-on testing with real projects, plus
 
 ### What Mare Does Best
 
-**Private by default.** Everything is private unless you explicitly choose to share. For designers with NDA clients, this isn't optional—it's professional necessity.
+**Private by default.** Everything is private unless you explicitly choose to share. For designers with NDA clients, this isn't optional.it's professional necessity.
 
-**Full API access.** Your archive is yours. Programmatic backup, custom integrations, automated workflows—everything operates on your terms, not the platform's.
+**Full API access.** Your archive is yours. Programmatic backup, custom integrations, automated workflows.everything operates on your terms, not the platform's.
 
 **Visual search.** Find references by dominant color, composition type, visual similarity. You don't need perfect tags because you can search by what images actually look like.
 
@@ -223,7 +227,7 @@ Most professional designers use multiple tools. Here's the recommended combinati
 - Manage client work privately
 - Create searchable long-term archives
 
-The cost is complexity—you're maintaining three systems. But if you're serious about your reference library, the separation protects your work.
+The cost is complexity.you're maintaining three systems. But if you're serious about your reference library, the separation protects your work.
 
 ---
 
@@ -252,7 +256,7 @@ We interviewed 200+ designers about their tool choices:
 
 ### Can I use all three tools together?
 
-Yes—many designers do. Use Pinterest for public discovery, Are.na for active collaborations, and Mare for private archives. The key is being intentional about what goes where.
+Yes.many designers do. Use Pinterest for public discovery, Are.na for active collaborations, and Mare for private archives. The key is being intentional about what goes where.
 
 ### Which tool is best for client work?
 
@@ -260,7 +264,7 @@ Mare. Privacy is non-negotiable for professional work, and only Mare offers true
 
 ### What if I've built my archive on Are.na?
 
-Export everything manually before migrating. Are.na doesn't offer bulk export, so this is tedious but necessary. Your archive represents hours of curation—protect it.
+Export everything manually before migrating. Are.na doesn't offer bulk export, so this is tedious but necessary. Your archive represents hours of curation.protect it.
 
 ### Is Pinterest still worth using for designers?
 

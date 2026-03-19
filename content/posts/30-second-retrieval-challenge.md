@@ -16,19 +16,19 @@ The test: Can you find any reference in your archive in 30 seconds? If not, your
 
 ## The Challenge
 
-Think about your reference library right now. Pick a reference you saved 3 months ago—something specific, not your favorite.
+Think about your reference library right now. Pick a reference you saved 3 months ago.something specific, not your favorite.
 
 **Now find it.**
 
 How long did that take?
 
 - **Under 10 seconds:** Excellent system
-- **10-30 seconds:** Good—room for improvement
+- **10-30 seconds:** Good.room for improvement
 - **30-60 seconds:** Your system needs work
 - **Over 1 minute:** Serious organization problems
 - **Couldn't find it:** You're like most designers
 
-The goal isn't perfection—it's knowing your retrieval speed and improving it.
+The goal isn't perfection.it's knowing your retrieval speed and improving it.
 
 ---
 

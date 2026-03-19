@@ -91,7 +91,7 @@ theme = 'PaperMod'
     Content = 'Expert guides on organizing, retrieving, and using visual inspiration.'
   
   [params.footer]
-    text = ""
+    text = "Part of [Mare](https://mare.run) — the archive that evolves with you."
 
 [[params.socialIcons]]
   name = 'twitter'
@@ -124,6 +124,12 @@ theme = 'PaperMod'
   name = 'Search'
   url = '/search/'
   weight = 40
+
+[[menu.main]]
+  identifier = 'mare'
+  name = 'Try Mare →'
+  url = 'https://mare.run'
+  weight = 50
 
 [taxonomies]
   tag = 'tags'

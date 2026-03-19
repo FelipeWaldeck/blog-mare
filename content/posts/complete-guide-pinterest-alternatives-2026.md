@@ -19,7 +19,7 @@ faqs:
   - question: "Can I export my Pinterest boards to another platform?"
     answer: "Yes. Pinterest allows you to download all your data as a ZIP file containing your pins, boards, and metadata. Most Pinterest alternatives including Mare, Are.na, and Milanote can import this data, though image quality may vary."
   - question: "Is there a Pinterest alternative without algorithms?"
-    answer: "Yes. Are.na, Mare, and Cosmos are all algorithm-free. They show you exactly what you saved—no recommendations, no infinite scroll, no 'you might also like.' Your collection stays exactly as you curated it."
+    answer: "Yes. Are.na, Mare, and Cosmos are all algorithm-free. They show you exactly what you saved.no recommendations, no infinite scroll, no 'you might also like.' Your collection stays exactly as you curated it."
   - question: "Which Pinterest alternative is best for privacy?"
     answer: "Mare is the most privacy-focused Pinterest alternative. It's designed for private visual archives with no social features, no public profiles, and no data mining. Your references stay yours alone."
   - question: "Are Pinterest alternatives free?"
@@ -56,7 +56,7 @@ Pinterest still works for discovery, but these alternatives give you control, pr
 
 ## Why Designers Are Leaving Pinterest
 
-Pinterest has 450 million monthly active users. It's the world's largest visual inspiration database. So why are designers—its core user base—actively searching for alternatives?
+Pinterest has 450 million monthly active users. It's the world's largest visual inspiration database. So why are designers.its core user base.actively searching for alternatives?
 
 ### The Data: What's Actually Happening
 
@@ -90,7 +90,7 @@ As one designer told us: *"I have 10,000 pins and I can find exactly zero of the
 
 ### What's Missing from Pinterest
 
-- **Exact search**: "That Bauhaus poster with primary colors from 2023"—not "Bauhaus poster"
+- **Exact search**: "That Bauhaus poster with primary colors from 2023".not "Bauhaus poster"
 - **Chronological view**: "What did I save last Tuesday?"
 - **Source preservation**: "Where did this image come from?"
 - **Private archives**: "References I'm not ready to share"
@@ -104,12 +104,12 @@ Pinterest gives you none of these. The alternatives below give you all of them.
 
 We spent 30 days with each tool. Real projects, real references, real workflows. Here's what actually works.
 
-### 1. Are.na — Best for Collaborative Research
+### 1. Are.na . Best for Collaborative Research
 
 **What it is:** A visual organization tool built for sharing and discovery among creatives.
 
 **Why designers use it:**
-- **No algorithm**: Your feed shows exactly what people you follow save—no recommendations
+- **No algorithm**: Your feed shows exactly what people you follow save.no recommendations
 - **Channels**: Organize references into themed collections that others can follow
 - **Community**: Active communities of designers, architects, and researchers
 - **Connections**: Link blocks to show relationships between references
@@ -132,7 +132,7 @@ We spent 30 days with each tool. Real projects, real references, real workflows.
 
 ---
 
-### 2. Mare — Best for Private Visual Archives
+### 2. Mare . Best for Private Visual Archives
 
 **What it is:** A visual reference management tool built specifically for private archives and personal canons.
 
@@ -159,7 +159,7 @@ We spent 30 days with each tool. Real projects, real references, real workflows.
 
 ---
 
-### 3. Milanote — Best for Client Presentations
+### 3. Milanote . Best for Client Presentations
 
 **What it is:** A visual workspace that combines notes, images, and files into flexible boards.
 
@@ -187,7 +187,7 @@ We spent 30 days with each tool. Real projects, real references, real workflows.
 
 ---
 
-### 4. PureRef — Best for Offline Work
+### 4. PureRef . Best for Offline Work
 
 **What it is:** A lightweight desktop app for organizing reference images.
 
@@ -215,7 +215,7 @@ We spent 30 days with each tool. Real projects, real references, real workflows.
 
 ---
 
-### 5. Cosmos — Best for Academic Research
+### 5. Cosmos . Best for Academic Research
 
 **What it is:** A research and knowledge management tool for visual and textual references.
 
@@ -296,7 +296,7 @@ We spent 30 days with each tool. Real projects, real references, real workflows.
 2. Click "Request Data Download"
 3. Wait 24-48 hours for the email
 4. Download the ZIP file
-5. Extract it—you'll see:
+5. Extract it.you'll see:
    - `/pins/` folder with all your images
    - `boards.json` with board metadata
    - `pins.json` with pin metadata
@@ -362,7 +362,7 @@ The algorithm makes finding saved references nearly impossible, advertising has 
 Yes. Pinterest provides a full data export. Most alternatives can import this data, though the process varies by tool. Expect to spend 2-4 hours reorganizing after import.
 
 ### Is there a Pinterest alternative without algorithms?
-Yes—Are.na, Mare, Cosmos, and PureRef are all algorithm-free. You see exactly what you saved, nothing more, nothing less.
+Yes.Are.na, Mare, Cosmos, and PureRef are all algorithm-free. You see exactly what you saved, nothing more, nothing less.
 
 ### Which Pinterest alternative is best for privacy?
 Mare is designed specifically for private visual archives. PureRef keeps everything local. Both ensure your references stay completely private.

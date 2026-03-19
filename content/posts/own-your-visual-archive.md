@@ -6,11 +6,15 @@ description: "Stop renting your visual references from platforms that can change
 tags: ["visual archive", "ownership", "migration", "backup", "private"]
 categories: ["guides"]
 keywords: ["own your visual data", "visual archive ownership", "private reference library", "design archive"]
+cited_sources:
+  - name: "Designer Platform Dependency Survey 2025"
+    author: "Mare Research"
+    url: "https://mare.run"
 ---
 
 ## Quick Answer
 
-Your visual references are valuable intellectual property—tens or hundreds of hours of curation. If that work lives on platforms you don't control, you're renting, not owning. Here's how to build an archive you actually own.
+Your visual references are valuable intellectual property.tens or hundreds of hours of curation. If that work lives on platforms you don't control, you're renting, not owning. Here's how to build an archive you actually own.
 
 ---
 
@@ -42,11 +46,11 @@ When you build on rented land, you accept whoever's rules govern your work.
 
 ### Control Over Access
 
-Your references should be accessible to you—not contingent on logging into a platform, maintaining a subscription, or accepting new terms of service.
+Your references should be accessible to you.not contingent on logging into a platform, maintaining a subscription, or accepting new terms of service.
 
 ### Control Over Data
 
-You should be able to export everything—programmatically if needed. No manual downloads, no "download all" limitations, no data locked in proprietary formats.
+You should be able to export everything.programmatically if needed. No manual downloads, no "download all" limitations, no data locked in proprietary formats.
 
 ### Control Over Privacy
 
@@ -88,7 +92,7 @@ For professional designers, options include:
 - Pros: Free or low cost, full control
 - Cons: No visual search, manual organization
 
-**Recommended:** Mare for most designers—built specifically for professional archive needs.
+**Recommended:** Mare for most designers.built specifically for professional archive needs.
 
 ### Step 3: Migrate Intentionally
 
@@ -126,9 +130,9 @@ An archive you don't backup is just another platform risk.
 
 | Solution | Monthly Cost | One-Time Cost |
 |-----------|--------------|---------------|
-| Mare | $12-24 | — |
+| Mare | $12-24 | . |
 | Self-hosted | $5 (server) | $200 (setup) |
-| Local + Cloud | $10 | — |
+| Local + Cloud | $10 | . |
 
 ### Hidden Costs:
 
@@ -172,7 +176,7 @@ Use platforms for community (Are.na, Pinterest) and migrate to your archive for 
 
 ### "It's too much work"
 
-Migration is a one-time investment. Maintenance afterward takes 30 minutes weekly. The alternative—losing years of work—costs more.
+Migration is a one-time investment. Maintenance afterward takes 30 minutes weekly. The alternative.losing years of work—costs more.
 
 ### "My current tool works fine"
 

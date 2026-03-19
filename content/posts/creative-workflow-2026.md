@@ -18,13 +18,13 @@ This guide covers how leading designers structure their visual workflow, which t
 
 ## The Four-Phase Creative Cycle
 
-Designers increasingly recognize that visual workflow isn't a single activity—it's a cycle of four distinct phases, each requiring different mindsets and tools:
+Designers increasingly recognize that visual workflow isn't a single activity.it's a cycle of four distinct phases, each requiring different mindsets and tools:
 
 ### Phase 1: Discovery
 
 **Goal:** Find as much relevant inspiration as possible without judgment
 
-This is the divergent phase—expanding possibilities, not narrowing them. The quality of your discovery directly affects the ceiling of your work. If you only discover what's obvious, your work will be obvious.
+This is the divergent phase.expanding possibilities, not narrowing them. The quality of your discovery directly affects the ceiling of your work. If you only discover what's obvious, your work will be obvious.
 
 Tools that excel at discovery:
 - Pinterest (broadest public archive)
@@ -39,7 +39,7 @@ The key discipline: save broadly, organize later. The goal is volume, not qualit
 
 **Goal:** Transform raw discovery into meaningful selections
 
-This is the convergent phase—narrowing to what actually serves your project. Most designers spend too much time in discovery and not enough in curation, leading to decision paralysis when it's time to create.
+This is the convergent phase.narrowing to what actually serves your project. Most designers spend too much time in discovery and not enough in curation, leading to decision paralysis when it's time to create.
 
 Tools that excel at curation:
 - Mare (private archives with visual search)
@@ -53,7 +53,7 @@ The key discipline: ruthlessly delete. If you can't explain why a reference matt
 
 **Goal:** Transform selected references into original work
 
-This is where your curated references meet your creative judgment. References should inform, not dictate—your work should be visibly inspired but distinctly your own.
+This is where your curated references meet your creative judgment. References should inform, not dictate.your work should be visibly inspired but distinctly your own.
 
 Tools that excel at creation:
 - Figma (UI/UX design)
@@ -89,10 +89,10 @@ We surveyed 200+ designers to understand real workflows. Here's what emerged:
 **Profile:** Independent designer, 3-7 years experience, primarily client work
 
 **Typical workflow:**
-1. Discovery happens in the first 20% of project time—intensive research, broad saving
-2. Curation happens mid-project—narrowing to 10-15 strong references
-3. Creation happens with minimal reference viewing—references inform direction, not detail
-4. Archive rarely happens—too busy with next project
+1. Discovery happens in the first 20% of project time.intensive research, broad saving
+2. Curation happens mid-project.narrowing to 10-15 strong references
+3. Creation happens with minimal reference viewing.references inform direction, not detail
+4. Archive rarely happens.too busy with next project
 
 **Problem:** References from completed projects are never recovered. Starting new projects means rediscovering everything.
 
@@ -103,28 +103,28 @@ We surveyed 200+ designers to understand real workflows. Here's what emerged:
 **Profile:** Works at a company, owns a brand system, ongoing relationship with products
 
 **Typical workflow:**
-1. Discovery is ongoing—maintaining awareness of category trends
-2. Curation happens weekly—organizing into brand-appropriate categories
-3. Creation happens with heavy reference use—brand guidelines plus external inspiration
-4. Archive is organizational—company knowledge management, not personal
+1. Discovery is ongoing.maintaining awareness of category trends
+2. Curation happens weekly.organizing into brand-appropriate categories
+3. Creation happens with heavy reference use.brand guidelines plus external inspiration
+4. Archive is organizational.company knowledge management, not personal
 
 **Problem:** Personal reference libraries stagnate; everything goes into company systems
 
-**Solution:** Maintain personal archives even when work lives elsewhere—career portability matters.
+**Solution:** Maintain personal archives even when work lives elsewhere.career portability matters.
 
 ### The Creative Director
 
 **Profile:** Oversees multiple projects, manages junior designers, strategic input
 
 **Typical workflow:**
-1. Discovery delegated—team members find references
-2. Curation happens in review—selecting from team submissions
-3. Creation happens in direction—describing outcomes, not executing
-4. Archive is strategic—what represents the company's evolving visual language
+1. Discovery delegated.team members find references
+2. Curation happens in review.selecting from team submissions
+3. Creation happens in direction.describing outcomes, not executing
+4. Archive is strategic.what represents the company's evolving visual language
 
 **Problem:** Lose touch with discovery tools; rely on team to surface new directions
 
-**Solution:** Schedule personal discovery time—even 30 minutes weekly prevents obsolescence.
+**Solution:** Schedule personal discovery time.even 30 minutes weekly prevents obsolescence.
 
 ---
 
@@ -134,13 +134,13 @@ The most effective designers have explicit pipelines connecting references to wo
 
 ### Input → Selection → Translation → Output
 
-**Input:** Every reference enters via capture—inbox, bookmark, screenshot, import. Don't decide where it goes yet.
+**Input:** Every reference enters via capture.inbox, bookmark, screenshot, import. Don't decide where it goes yet.
 
 **Selection:** Daily (at minimum), review inputs. Apply strict criteria: does this teach me something? Does it connect to current work? Is it distinctive?
 
-**Translation:** For each selected reference, note specifically what you learned. Not "great typography" but "variable font weight creates hierarchy without size changes"—the specificity matters.
+**Translation:** For each selected reference, note specifically what you learned. Not "great typography" but "variable font weight creates hierarchy without size changes".the specificity matters.
 
-**Output:** When creating, your translated references are available—not as direct models but as principles you've extracted.
+**Output:** When creating, your translated references are available.not as direct models but as principles you've extracted.
 
 ### The Monthly Audit
 
