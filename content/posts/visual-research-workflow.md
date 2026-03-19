@@ -182,3 +182,11 @@ Implement this workflow on your next project:
 The goal isn't perfect execution—it's building awareness of how you research so you can improve iteratively.
 
 *[This guide was last updated March 2026.]*
+
+## Related Posts
+
+- [Visual Reference Management: The Complete Workflow Guide (2026)](/posts/visual-reference-management-guide/)
+- [The Modern Creative's Visual Workflow: From Inspiration to Archive (2026)](/posts/creative-workflow-2026/)
+- [Why Designers Are Leaving Pinterest in 2026: The Algorithm Problem](/posts/why-designers-leaving-pinterest-2026/)
+- [What Nobody Tells You About Color Theory References](/posts/what-nobody-tells-you-about-color-theory-references/)
+- [Why Your Inspiration System Isn't Working (And How to Fix It)](/posts/inspiration-system-not-working/)

@@ -205,3 +205,11 @@ Basic component creation is accessible. Advanced prototyping helps but isn't req
 Mood boards aren't dead—they're just the beginning. Modern visual direction starts with inspiration and quickly evolves into components, tokens, and prototypes that connect feeling to execution.
 
 *[This guide was last updated March 2026.]*
+
+## Related Posts
+
+- [The Modern Creative's Visual Workflow: From Inspiration to Archive (2026)](/posts/creative-workflow-2026/)
+- [Why Designers Are Leaving Pinterest in 2026: The Algorithm Problem](/posts/why-designers-leaving-pinterest-2026/)
+- [Visual Reference Management: The Complete Workflow Guide (2026)](/posts/visual-reference-management-guide/)
+- [The 5-Step Visual Research Workflow That Actually Works](/posts/visual-research-workflow/)
+- [Are.na Alternative: When to Keep References Private](/posts/are-na-alternative-private/)
