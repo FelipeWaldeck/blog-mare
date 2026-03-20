@@ -1,15 +1,21 @@
 ---
 title: "Building a Visual Archive You Own (Not Renting from Platforms)"
-date: 2026-03-05T14:00:00+07:00
+date: 2026-01-07T10:00:00+07:00
 draft: false
 description: "Stop renting your visual references from platforms that can change terms, raise prices, or disappear. Here's how to build an archive you actually control."
 tags: ["visual archive", "ownership", "migration", "backup", "private"]
 categories: ["guides"]
 keywords: ["own your visual data", "visual archive ownership", "private reference library", "design archive"]
-cited_sources:
-  - name: "Designer Platform Dependency Survey 2025"
-    author: "Mare Research"
-    url: "https://mare.run"
+schema_type: "FAQPage"
+faqs:
+  - question: "How long does it take to migrate a visual archive?"
+    answer: "For 1,000 references: 2-4 hours. For 10,000+: 1-2 days spread over a week. The time depends on how selectively you migrate — exporting everything is fast, but curating during import takes longer."
+  - question: "What if I cannot export everything from my current platform?"
+    answer: "Export what is most valuable first — client work and unique finds that cannot be rediscovered. Generic inspiration can be found again; irreplaceable curation cannot."
+  - question: "Should I keep Pinterest even with a private archive?"
+    answer: "Yes, for public discovery only. Pinterest is valuable for finding new things. But do not rely on it for long-term storage of references you need to retrieve later."
+  - question: "What is the minimum viable visual archive?"
+    answer: "A local folder with organized images and basic tagging. Simple, free, and fully owned. You can always upgrade to a more sophisticated tool later without losing your work."
 ---
 
 ## Quick Answer
@@ -20,13 +26,7 @@ Your visual references are valuable intellectual property.tens or hundreds of ho
 
 ## The Rental Problem
 
-According to a 2025 survey of 1,200 designers:
-
-- **67%** have lost access to references due to platform changes
-- **43%** have paid for tools that later increased prices or changed features
-- **31%** have lost work when platforms shut down or deprioritized features
-
-The pattern is consistent: platforms serve their shareholders, not your long-term interests.
+If you've been on the internet long enough, you've watched this happen: a platform you relied on changes its terms, raises prices, or shuts down entirely. Your years of careful curation vanish or get locked behind a paywall you didn't agree to.
 
 ### Real Examples:
 

@@ -1,15 +1,23 @@
 ---
 title: "The 5-Step Visual Research Workflow That Actually Works"
-date: 2026-03-05T12:00:00+07:00
+date: 2025-12-17T10:00:00+07:00
 draft: false
 description: "A 5-step visual research workflow that transforms how designers find, organize, and use visual references. From chaos to clarity."
 tags: ["visual research", "workflow", "productivity", "organization", "design process"]
 categories: ["workflow"]
 keywords: ["visual research workflow", "design research methods", "how to research for design"]
-cited_sources:
-  - name: "Designer Visual Research Time Study 2025"
-    author: "Mare Research"
-    url: "https://mare.run"
+schema_type: "FAQPage"
+faqs:
+  - question: "How do I balance visual research with actually designing?"
+    answer: "Spend no more than 20-30% of total project time on research. If you are spending more, you may be avoiding the harder work of creation. Research enables doing but does not replace it."
+  - question: "What if I find amazing references that do not fit my current project?"
+    answer: "Save them in a separate personal inspiration library, not in your project folder. These references will be useful for future projects with different requirements."
+  - question: "How do I know when visual research is complete?"
+    answer: "Research is complete when you can articulate your visual direction clearly, have references that embody that direction, and can explain why those references are right for your project."
+  - question: "Should I include competitor references in my visual research?"
+    answer: "Yes, but label them explicitly. Competitor research helps you understand market standards and differentiation opportunities. Keep them in a separate category so you do not accidentally copy them."
+  - question: "How long should a visual research phase take?"
+    answer: "For most projects, effective research takes 2-4 hours spread across 1-2 days. Definition: 15-30 minutes. Exploration: 30-45 minutes. Curation: 30-45 minutes. Organization and connection: 40-60 minutes."
 ---
 
 ## Quick Answer
@@ -22,7 +30,7 @@ Most designers treat research as a single activity."find inspiration".when it's 
 
 ## Why Most Research Fails
 
-Designers spend an average of 4.7 hours per week on visual research, according to a 2025 industry survey. Yet **73% report that most of what they find never gets used** in actual projects. The disconnect isn't about effort.it's about process.
+Designers spend hours every week on visual research. Yet most of what they find never gets used in actual projects. The disconnect isn't about effort — it's about process.
 
 The problem is that visual research feels productive even when it's not. Scrolling through Pinterest, saving images to boards, bookmarking Dribbble shots.all of these feel like work. But they're actually just consumption. Real research requires transformation, not accumulation.
 

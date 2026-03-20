@@ -1,8 +1,6 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
 ---
 title: "Free Alternative to Are.na: The Complete Guide for Designers"
-date: 2026-03-05T14:00:00+07:00
+date: 2026-02-21T10:00:00+07:00
 draft: false
 description: "Are.na is beautiful but expensive. Discover the best free alternatives for managing visual references in 2026. Compare features, limitations, and find your perfect match."
 tags: ["are.na", "alternatives", "free", "visual reference", "tools"]

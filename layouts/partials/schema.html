@@ -151,7 +151,7 @@
   "image": [
     {{ (.Params.feature_image | absURL) | jsonify }},
     {{ (.Params.og_image | absURL) | jsonify }},
-    {{ "https://blog.mare.run/images/og-default.png" | jsonify }}
+    {{ "/images/og-default.png" | absURL | jsonify }}
   ],
   "author": {
     "@type": "Organization",
@@ -275,7 +275,7 @@
     "width": 512,
     "height": 512
   },
-  "image": {{ "https://blog.mare.run/images/og-default.png" | jsonify }},
+  "image": {{ "/images/og-default.png" | absURL | jsonify }},
   "description": {{ .Site.Params.description | jsonify }},
   "sameAs": [
     "https://twitter.com/marevisual",

@@ -1,13 +1,21 @@
-bash: cannot set terminal process group (-1): Inappropriate ioctl for device
-bash: no job control in this shell
 ---
 title: "Organizing Inspiration Without Pinterest: A Designer's Guide"
-date: 2026-03-05T14:00:00+07:00
+date: 2026-01-21T10:00:00+07:00
 draft: false
 description: "Pinterest's algorithm has ruined inspiration organization. Learn how to build a system that actually lets you find what you saved. No algorithm, no ads, just your references organized your way."
 tags: ["organization", "pinterest", "inspiration", "workflow", "reference management"]
 categories: ["workflow"]
 keywords: ["organizing inspiration without pinterest", "design inspiration organization", "visual reference system", "pinterest alternative"]
+schema_type: "FAQPage"
+faqs:
+  - question: "How many tags should each item have?"
+    answer: "3-7 tags per item. Enough to be findable from multiple angles, not so many it becomes noise. Focus on discipline, asset type, project, and aesthetic dimensions."
+  - question: "Should I delete old references?"
+    answer: "Yes. If you haven't looked at a reference in 6 months and don't remember saving it, archive or delete it. Smaller libraries with good tags are faster to search than large unorganized ones."
+  - question: "What is the difference between tagging and folders?"
+    answer: "Folders give each item one home. Tags let an item live everywhere. A reference can be tagged with both a project name and a visual style, making it findable from either angle."
+  - question: "How long does the organizing workflow take?"
+    answer: "Daily capture takes 2 minutes. Weekly review and tagging takes 15 minutes. Monthly maintenance takes 30 minutes. The retrieval time you save far exceeds the investment."
 ---
 
 ## The Pinterest Algorithm Problem

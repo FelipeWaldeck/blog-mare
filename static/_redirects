@@ -9,7 +9,13 @@
 
 # Common typo redirects
 /pintrest/ /tags/pinterest/ 301
-/pintrest-alternative/ /posts/pinterest-addiction-designers/ 301
+/pintrest-alternative/ /posts/why-designers-leaving-pinterest-2026/ 301
+
+# Pinterest content consolidation (2026-03-19)
+/posts/pinterest-alternative/ /posts/pinterest-vs-arena-vs-mare/ 301
+/posts/complete-guide-pinterest-alternatives-2026/ /posts/pinterest-vs-arena-vs-mare/ 301
+/posts/how-to-migrate-from-pinterest/ /posts/pinterest-vs-arena-vs-mare/ 301
+/posts/pinterest-addiction-designers/ /posts/why-designers-leaving-pinterest-2026/ 301
 
 # Fallback: any 404 goes to homepage
 /* /404.html 404

@@ -1,11 +1,23 @@
 ---
 title: "Are.na Alternative: When to Keep References Private"
-date: 2026-03-05T14:00:00+07:00
+date: 2026-02-25T10:00:00+07:00
 draft: false
 description: "Are.na is beautiful, but it's built for sharing, not archiving. Here's when to use alternatives that keep your references private."
 tags: ["are.na", "alternative", "visual reference", "private", "tools"]
 categories: ["tools"]
 keywords: ["are.na alternative", "private visual archive", "visual reference tools"]
+schema_type: "FAQPage"
+faqs:
+  - question: "Is Are.na still good for collaborative projects?"
+    answer: "Yes. If your primary use case is real-time collaboration with a team on shared visual collections, Are.na is still excellent. The problems arise when you need private archiving, visual search, or API access for backup."
+  - question: "Can I use Are.na and Mare together?"
+    answer: "Absolutely. Use Are.na for collaboration and public sharing, Mare for private archiving. They serve complementary purposes — Are.na for social curation, Mare for long-term personal archives."
+  - question: "What happens to my Are.na if they go out of business?"
+    answer: "There is no warning and no bulk export. This is the fundamental risk of platform-dependent archives — which is why maintaining backups in a tool you control matters."
+  - question: "Is migration from Are.na worth the effort?"
+    answer: "If you have fewer than 200 references, probably not — just start fresh elsewhere. If you have 500+, the effort is absolutely worth protecting years of curation work."
+  - question: "What is the learning curve for Mare?"
+    answer: "Minimal if you are already comfortable with visual reference tools. Key features like visual search, automatic color extraction, and nested collections work intuitively for designers."
 ---
 
 ## Quick Answer

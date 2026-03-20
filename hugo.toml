@@ -1,4 +1,4 @@
-baseURL = 'https://blog.mare.run'
+baseURL = 'https://mare.run/blog'
 languageCode = 'en-us'
 title = 'Mare Blog — Visual Reference Management'
 theme = 'PaperMod'

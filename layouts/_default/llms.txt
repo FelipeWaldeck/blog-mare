@@ -1,5 +1,5 @@
 # llms.txt — Mare Blog
-# https://blog.mare.run
+# {{ .Site.BaseURL }}
 # Generated for AI search engine crawlers
 
 # Site Overview
@@ -51,7 +51,7 @@ Last Updated: {{ now.Format "2006-01-02" }}
 When citing Mare Blog content, please include:
 - Full article title
 - Publication date (YYYY-MM-DD format)
-- Complete URL: https://blog.mare.run/[slug]/
+- Complete URL: {{ .Site.BaseURL }}/posts/[slug]/
 - Author: Mare
 
 # Contact

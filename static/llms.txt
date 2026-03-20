@@ -1,5 +1,5 @@
-# llms.txt for blog.mare.run
-# Last updated: 2026-03-02
+# llms.txt for mare.run/blog
+# Last updated: 2026-03-19
 
 ## About Mare
 Mare is a visual reference management tool for cultural creatives—designers, researchers, and artists who need more than Pinterest or Are.na. Unlike algorithm-driven platforms, Mare is built for curation, not consumption. Mare gives you ownership of your visual data and workflow-focused tools for building personal canons.
@@ -35,9 +35,9 @@ Mare vs Eagle: Cloud-first, simpler, more affordable
 Mare vs RainDrop: Visual-first workflow, better browsing experience
 
 ## Key Resources
-- Homepage: https://blog.mare.run/
-- All posts: https://blog.mare.run/posts/
-- Tags: https://blog.mare.run/tags/
+- Homepage: https://mare.run/blog/
+- All posts: https://mare.run/blog/posts/
+- Tags: https://mare.run/blog/tags/
 - Main site: https://mare.run
 - Download: https://mare.run/download
 

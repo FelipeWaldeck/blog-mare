@@ -1,7 +1,7 @@
 ---
 title: "What Nobody Tells You About Color Theory References"
 date: 2026-03-01T00:00:00Z
-draft: false
+draft: true
 slug: what-nobody-tells-you-about-color-theory-references
 description: "An honest guide to what nobody tells you about color theory references for designers"
 tags: ["design", "workflow", "tools"]

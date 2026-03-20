@@ -26,4 +26,4 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-Sitemap: https://blog.mare.run/sitemap.xml
+Sitemap: https://mare.run/blog/sitemap.xml

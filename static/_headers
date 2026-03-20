@@ -1,4 +1,4 @@
-# Cloudflare Headers for blog.mare.run
+# Cloudflare Headers for mare.run/blog (served via Vercel rewrite from blog.mare.run)
 
 # Cache static assets for 1 year
 /static/*

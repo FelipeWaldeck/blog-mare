@@ -1,11 +1,21 @@
 ---
 title: "The 30-Second Reference Retrieval Challenge"
-date: 2026-03-05T12:00:00+07:00
+date: 2026-01-14T10:00:00+07:00
 draft: false
 description: "Can you find any reference in your archive in 30 seconds? Most designers can't. Here's how to build a system that makes it possible."
 tags: ["retrieval", "speed", "challenge", "workflow", "organization"]
 categories: ["workflow"]
 keywords: ["reference retrieval", "find references fast", "visual archive speed", "design workflow optimization"]
+schema_type: "FAQPage"
+faqs:
+  - question: "What is the fastest way to retrieve a visual reference?"
+    answer: "Visual search — uploading a similar image to find matches. This works when you remember what something looked like but not how you tagged it. Tools like Mare and Google Images support this."
+  - question: "How many references can I reasonably manage?"
+    answer: "With good organization and tagging, 5,000 or more. Beyond that, search quality degrades without advanced filtering like visual search or auto-extracted metadata."
+  - question: "Should I delete references I cannot find?"
+    answer: "No — archive them in a lost-and-found folder. Sometimes you find them later through related searches. But do prune references you know you will never use."
+  - question: "Does better reference organization take a lot of time?"
+    answer: "Yes, but it pays back quickly. Saving 30 seconds per retrieval, 10 times daily, saves 2+ hours weekly. The initial setup takes a few hours; maintenance takes minutes."
 ---
 
 ## Quick Answer

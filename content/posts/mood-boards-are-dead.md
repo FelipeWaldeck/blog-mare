@@ -1,15 +1,21 @@
 ---
 title: "Mood Boards Are Dead: What's Replacing Them in 2026"
-date: 2026-03-05T14:00:00+07:00
+date: 2026-01-28T10:00:00+07:00
 draft: false
 description: "Mood boards served us well, but static image collages don't match how modern design actually works. Here's what professionals are using instead."
 tags: ["mood boards", "design process", "workflow", "2026", "alternatives"]
 categories: ["trends"]
 keywords: ["mood boards dead 2026", "alternatives to mood boards", "design presentation 2026", "visual design tools"]
-cited_sources:
-  - name: "Design Handoff Effectiveness Survey 2025"
-    author: "Mare Research"
-    url: "https://mare.run"
+schema_type: "FAQPage"
+faqs:
+  - question: "Will clients accept alternatives to mood boards?"
+    answer: "Yes — most clients find interactive prototypes and component libraries more convincing than static image collages. You are providing more clarity and specificity, not less."
+  - question: "What if my clients insist on mood boards?"
+    answer: "Use mood boards as conversation starters, then evolve quickly into components and design tokens. Frame it as: here is the mood, and here is how we are executing it."
+  - question: "Are mood board alternatives more work?"
+    answer: "Initially yes. But components and design tokens save time downstream — fewer revision cycles, clearer communication, and faster development handoff."
+  - question: "Do I need advanced Figma skills to replace mood boards?"
+    answer: "Basic component creation is accessible to any designer. Advanced prototyping helps but is not required. The key skill is extracting systems from inspiration, not software expertise."
 ---
 
 ## Quick Answer
@@ -30,7 +36,7 @@ Mood boards served a purpose: communicate aesthetic direction before design soft
 
 **Disconnected.** The images on mood boards rarely connect to the components, colors, or layouts that end up in final work.
 
-According to a 2025 survey of agency designers, **78%** report that mood boards cause more confusion than clarity during handoff.
+Anyone who's sat through a handoff meeting knows the feeling: the mood board said "warm and editorial," but the developer built something that looks like a generic template. The gap between inspiration and implementation is where mood boards fail hardest.
 
 ---
 

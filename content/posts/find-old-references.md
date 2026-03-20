@@ -1,11 +1,23 @@
 ---
 title: "How to Find That One Reference You Saved 3 Months Ago"
-date: 2026-03-05T14:00:00+07:00
+date: 2025-12-24T10:00:00+07:00
 draft: false
 description: "Stop losing design references you saved months ago. The complete system for finding anything in your visual archive in under 30 seconds."
 tags: ["organization", "retrieval", "tips", "visual reference"]
 categories: ["workflow"]
 keywords: ["find saved images", "reference management", "image retrieval"]
+schema_type: "FAQPage"
+faqs:
+  - question: "How long should I spend looking for a saved reference before giving up?"
+    answer: "Most references can be found within 3-5 minutes using the C.R.E.A.M. method (Context, Rough characteristics, Emotional association, Associated concepts, Most recent use). After 10 minutes, try fallback strategies like returning to the original source."
+  - question: "Is visual search reliable for finding old references?"
+    answer: "Visual search has improved dramatically and works best for distinctive images. It excels at finding similar images when you have a strong reference, but struggles with generic imagery where many similar images exist."
+  - question: "How many tags should each reference have?"
+    answer: "Three to five tags is optimal. Fewer provides insufficient retrieval paths; more becomes unmanageable. Focus on tags that represent distinct dimensions — color, use case, and mood — rather than redundant categories."
+  - question: "Should I keep references I cannot find?"
+    answer: "Generally no. If you cannot find it, you probably will not use it. The exception is references you know are valuable but have not found a use for yet — keep these in a separate unfiled collection and review monthly."
+  - question: "What if I save references across multiple tools?"
+    answer: "Consolidate to one primary archive or accept the cost of fragmented search. Multiple tools means multiple search interfaces and fragmented memory. If you must use multiple tools, establish consistent tagging across all of them."
 ---
 
 ## Quick Answer

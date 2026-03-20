@@ -1,11 +1,23 @@
 ---
 title: "How to Export Your Pinterest Boards (Without Losing Your Work)"
-date: 2026-03-05T14:00:00+07:00
+date: 2026-02-04T10:00:00+07:00
 draft: false
 description: "Step-by-step guide to exporting your Pinterest boards and migrating to a better visual reference system. No data loss guaranteed."
 tags: ["pinterest", "export", "migration", "backup", "tutorial"]
 categories: ["guides"]
 keywords: ["export pinterest boards", "download pinterest images", "pinterest backup", "pinterest migration"]
+schema_type: "FAQPage"
+faqs:
+  - question: "Does Pinterest let you download all boards at once?"
+    answer: "No. Pinterest has no native bulk export feature. You must use third-party tools like Pinport, browser extensions like Pin Image Downloader, or manual downloading methods."
+  - question: "Will I lose image quality when exporting from Pinterest?"
+    answer: "Usually no — most export methods preserve original resolution. Some browser extensions may compress images. Test with one board first before exporting your entire library."
+  - question: "Can I export secret Pinterest boards?"
+    answer: "Yes. If you can view them in your browser, extensions can download them. Pinterest privacy settings do not prevent right-click saving or extension-based downloads."
+  - question: "What is the fastest method for exporting 500+ Pinterest images?"
+    answer: "Third-party tools like Pinport handle large exports best. They preserve metadata like descriptions, board names, and source URLs. Manual methods take 4+ hours for 500 images."
+  - question: "Should I export Pinterest metadata along with images?"
+    answer: "Yes. Descriptions, board names, and source URLs help you rebuild organization in a new tool. Export as CSV alongside images whenever possible."
 ---
 
 ## Quick Answer

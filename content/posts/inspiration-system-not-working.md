@@ -1,11 +1,21 @@
 ---
 title: "Why Your Inspiration System Isn't Working (And How to Fix It)"
-date: 2026-03-05T14:00:00+07:00
+date: 2025-12-10T10:00:00+07:00
 draft: false
 description: "You're saving references but not finding them when you need them. Here's why most inspiration systems fail and how to fix yours."
 tags: ["inspiration", "system", "organization", "problems", "fix"]
 categories: ["workflow"]
 keywords: ["inspiration system not working", "reference organization problems", "design workflow issues"]
+schema_type: "FAQPage"
+faqs:
+  - question: "How many visual references should a designer keep?"
+    answer: "Quality over quantity. 200 useful, well-tagged references beat 2,000 unorganized ones. Focus on references you have actually used or plan to use, not everything that catches your eye."
+  - question: "What is the minimum viable inspiration system?"
+    answer: "Capture, daily review, and tag. Skip elaborate organization until you have enough references to need it. A browser extension plus a daily 15-minute inbox review covers most designers."
+  - question: "Will organizing references take too much time?"
+    answer: "Initial setup takes about 2 hours. Weekly maintenance takes about 1 hour. The retrieval time you save — finding references in seconds instead of minutes — more than pays back the investment."
+  - question: "What if I cannot find references even with good tagging?"
+    answer: "Your tags probably do not match your search behavior. Pay attention to how you actually search — the words you type, the visual characteristics you remember — and adjust your tags to match those patterns."
 ---
 
 ## Quick Answer
